@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Teyet 2023 - UNAHUR!
+    text: Te esperamos
+    button: Más...
+    buttonlink: "#convocatoria"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+  convocatoria:
+    title: "Convocatoria"
+    text: "Fechas importantes - Edición 2023"
+    section: convocatoria
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Ediciones Anteriores"
+    text: "Enlaces a las últimas ediciones del TE&ET"
+    body: "2022 - Universidad Nacional de Entre Ríos https://teyet2022.fcad.uner.edu.ar/"
     section: about
 
   clients:
@@ -153,8 +153,6 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 en-US:
@@ -170,25 +168,33 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+    title: XVII Congreso Tecnología en Educación & Educación en Tecnología - 2023 - Hurlingham (Bs. As.)
+    text: 15 y 16 de Junio
+    button: Más...
+    buttonlink: "#convocatoria"
 
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
+  convocatoria:
+    title: "Convocatoria"
+    text: "Fechas importantes - Edición 2023"
+    section: convocatoria
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "Primer Llamado"
+        desc: "En Noviembre 2023 se realizará la primera convocatoria a presentación de trabajos."
+        icon: fas fa-calendar #find more at https://fontawesome.com/icons
+      - title: "Segundo llamado"
+        desc: "Durante el mes de Marzo 2023 se hará una nueva convocatoria."
+        icon: fas fa-calendar-check
+      - title: "Fechas límites"
+        desc: "**Presentación de trabajos:** 15/4/2023
+        &nbsp;
+        **Notificación autores:** 15/5/2023"
+        icon: fas fa-bell
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
 
   portfolio:
     title: "Portafolio"
@@ -197,15 +203,27 @@ es: &DEFAULT_ES
     closebutton: "Cerrar Proyecto"
 
   timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
+    title: "Actividades"
+    text: "Se pueden presentar trabajos para los tracks de Tecnología en Educación, Educación en Tecnología y Experiencias Docentes.
+    &nbspc;
+    Además habrá Demos, Talleres y Ponencias."
     section: cronologia
     # left is the default
     #start_align: "left"
     events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Tecnología en Educación"
+        year: "Track 1"
+        desc: "Aplicaciones de las TICs.
+Entornos y ambientes de soporte para Educación a Distancia.
+Multimedia e Hipermedia aplicadas en Educación.
+Simulación, Laboratorios Virtuales y Remotos.
+Realidad Virtual y Aumentada.
+Impacto de las TICs en el proceso de Enseñanza y Aprendizaje.
+Interfaces, usabilidad, accesibilidad, ubicuidad.
+Calidad para entornos educativos basados en Tecnología.
+Ambientes colaborativos aplicados en Educación.
+Experiencias concretas de utilización de TICs en Educación.
+Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
@@ -228,10 +246,16 @@ es: &DEFAULT_ES
     end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+    title: "Ediciones Anteriores"
+    text: "Enlaces a las últimas ediciones del TE&ET"
+    body: "2022 - Universidad Nacional de Entre Ríos [https://teyet2022.fcad.uner.edu.ar/](https://teyet2022.fcad.uner.edu.ar/)
+           \
+           &nbsp;
+           2021 - Universidad Nacional de La Plata [https://teyet2021.info.unlp.edu.ar/](https://teyet2021.info.unlp.edu.ar/)
+           \
+           &nbsp;
+           Anteriores: [https://redunci.info.unlp.edu.ar/ediciones-teet/](https://redunci.info.unlp.edu.ar/ediciones-teet/) "
+    section: ediciones
 
   clients:
     section: clientes
@@ -312,11 +336,12 @@ es: &DEFAULT_ES
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+es-AR:
+  <<: *DEFAULT_ES
+
