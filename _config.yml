@@ -21,9 +21,9 @@ title      : TEYET 2023 - UNAHUR
 email      : teyet2023@unahur.edu.ar #this is also the email contact forms will go to
 description: ""
 author     : Informática UNAHUR
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path       : assets/img/teyet-unahur-logo.png
+  height     : 120 #height in px, defaults to 52px
 
 locale: "es-AR" # See available languages in _data/sitetext.yml
 
