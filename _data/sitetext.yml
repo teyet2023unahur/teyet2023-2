@@ -183,14 +183,14 @@ es: &DEFAULT_ES
       - title: "Reglas Artículos"
         desc: "Reglas formatos para el envío de Artículos."
         icon: fas fa-calendar #find more at https://fontawesome.com/icons
-        url: "/assets/pdf/Reglas-Formato-de-envio-de-Articulos.pdf"
+        url: /assets/pdf/Reglas-Formato-de-envio-de-Articulos.pdf
       - title: "Formatos"
         desc: "Formatos de Artículosy Experiencias docentes."
-        url: "/assets/pdf/TEYET-2021-Formato-Articulos-y-Experiencias-Docentes.docx"
+        url: /assets/pdf/TEYET-2021-Formato-Articulos-y-Experiencias-Docentes.docx
         icon: fas fa-calendar-check
       - title: "Demos"
         desc: "Formatos de los Demos."
-        url: "/assets/pdf/TEYET-2021-Formato-Demos.docx"
+        url: /assets/pdf/TEYET-2021-Formato-Demos.docx
         icon: fas fa-calendar-check
       - title: "Fechas límites"
         desc: "**Presentación de trabajos:** 5/4/2023
