@@ -180,16 +180,22 @@ es: &DEFAULT_ES
     button: "llamado de trabajos"
     buttonlink: "/presentacion-trabajos.html"
     list:
-      - title: "Primer Llamado"
-        desc: "En Noviembre 2023 se realizará la primera convocatoria a presentación de trabajos."
+      - title: "Reglas Artículos"
+        desc: "Reglas formatos para el envío de Artículos."
         icon: fas fa-calendar #find more at https://fontawesome.com/icons
-      - title: "Segundo llamado"
-        desc: "Durante el mes de Marzo 2023 se hará una nueva convocatoria."
+        url: "/assets/pdf/Reglas-Formato-de-envio-de-Articulos.pdf"
+      - title: "Formatos"
+        desc: "Formatos de Artículosy Experiencias docentes."
+        url: "/assets/pdf/TEYET-2021-Formato-Articulos-y-Experiencias-Docentes.docx"
+        icon: fas fa-calendar-check
+      - title: "Demos"
+        desc: "Formatos de los Demos."
+        url: "/assets/pdf/TEYET-2021-Formato-Demos.docx"
         icon: fas fa-calendar-check
       - title: "Fechas límites"
-        desc: "**Presentación de trabajos:** 15/4/2023
+        desc: "**Presentación de trabajos:** 5/4/2023
         &nbsp;
-        **Notificación autores:** 15/5/2023"
+        **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
 
   portfolio:
