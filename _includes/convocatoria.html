@@ -7,8 +7,11 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].convocatoria.title | default: "convocatoria" }}</h2>
           {% if site.data.sitetext[site.locale].convocatoria.text %}
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].convocatoria.text }}</h3>
-		  {% endif %}
+		        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].convocatoria.text }}</h3>
+		      {% endif %}
+          {%- if site.data.sitetext[site.locale].convocatoria.button -%}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].convocatoria.buttonlink }}">{{ site.data.sitetext[site.locale].convocatoria.button }}</a>
+	        {%- endif -%}
         </div>
       </div>
 	  
