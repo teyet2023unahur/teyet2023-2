@@ -177,11 +177,12 @@ es: &DEFAULT_ES
     title: "Convocatoria"
     text: "Fechas importantes - Edición 2023"
     section: convocatoria
+    button: "llamado de trabajos"
+    buttonlink: "/presentacion-trabajos.html"
     list:
       - title: "Primer Llamado"
         desc: "En Noviembre 2023 se realizará la primera convocatoria a presentación de trabajos."
         icon: fas fa-calendar #find more at https://fontawesome.com/icons
-        url: "/presentacion-trabajos.html"
       - title: "Segundo llamado"
         desc: "Durante el mes de Marzo 2023 se hará una nueva convocatoria."
         icon: fas fa-calendar-check
