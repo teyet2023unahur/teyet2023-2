@@ -32,6 +32,8 @@ es: &DEFAULT_ES
       section: convocatoria
     - title: "Ediciones"
       section: ediciones
+    - title: "Acceso-representantes"
+      url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

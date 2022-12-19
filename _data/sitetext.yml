@@ -179,6 +179,8 @@ es: &DEFAULT_ES
     section: convocatoria
     button: "llamado de trabajos"
     buttonlink: "/presentacion-trabajos.html"
+    button2: "Envío de trabajos"
+    buttonlink2: "http://163.10.22.92//sac_congreso/enviarArticulo.php?idEvento=156"
     list:
       - title: "Reglas Artículos"
         desc: "Reglas formatos para el envío de Artículos."
