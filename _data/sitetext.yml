@@ -203,7 +203,7 @@ es: &DEFAULT_ES
   portfolio:
     title: "Autoridades"
     text: "Autoridades del Congreso y de RedUNCI"
-    section: portafolio
+    section: autoridades
     closebutton: "Cerrar"
 
   timeline:

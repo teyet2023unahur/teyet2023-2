@@ -33,7 +33,7 @@ es: &DEFAULT_ES
     - title: "Ediciones"
       section: ediciones
     - title: "Autoridades"
-      section: portfolio
+      section: autoridades
     - title: "Acceso-representantes"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
 es-ES:
