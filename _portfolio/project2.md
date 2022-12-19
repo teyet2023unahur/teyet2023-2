@@ -9,9 +9,9 @@ caption:
   subtitle: Autoridades RedUNCI
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-## COORDINADOR TITULAR
+#### COORDINADOR TITULAR
 - Pesado Patricia (UNLP) 2022-2024
-## JUNTA DIRECTIVA
+#### JUNTA DIRECTIVA
 
 - Estayno Marcelo (UNSAM) 2022-2024
 - Printista Marcela (UNSL) 2022-2024
@@ -23,11 +23,11 @@ caption:
 - Lasso Marta (UNPA) 2021-2023
 - Panizzi Marisa (UK) 2021-2023
 
-## MIEMBRO HONORARIO
+#### MIEMBRO HONORARIO
 
 - De Giusti Armando (UNLP)
 
-## SECRETARÍAS
+#### SECRETARÍAS
 
 - Secretaría Administrativa: Eterovic Jorge
 - Secretaría Académica: Russo Claudia
