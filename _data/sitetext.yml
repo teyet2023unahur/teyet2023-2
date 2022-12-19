@@ -201,16 +201,10 @@ es: &DEFAULT_ES
         icon: fas fa-bell
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Autoridades"
+    text: "Autoridades del Congreso y de RedUNCI"
     section: portafolio
-    closebutton: "Cerrar Proyecto"
+    closebutton: "Cerrar"
 
   timeline:
     title: "Actividades"
