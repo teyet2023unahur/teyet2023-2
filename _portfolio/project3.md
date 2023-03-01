@@ -10,20 +10,20 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
 UBA – Cs. Exactas:	Ceria, Santiago
-UBA – Ingeniería:	Echeverria, Adriana             
-UN La Plata:	Pesado, Patricia            
+UBA – Ingeniería:	Echeverria, Adriana
+UN La Plata:	Pesado, Patricia
 UN Sur:	Rueda, Sonia
 UN San Luis:	Printista, Marcela
 UNCPBA:	Aciti, Claudio
 UN Comahue: 	Grosso, Guillermo
-UN La Matanza:	Eterovic, Jorge  
+UN La Matanza:	Eterovic, Jorge
 UN La Pampa:	Alfonso, Hugo
 UNTierra del Fuego:	Koremblit, Gabriel
 UN Salta:	Gil, Gustavo
-UN Patagonia Austral:	Lasso, Marta 
+UN Patagonia Austral:	Lasso, Marta
 UN SanJuan:	Rodriguez, Nelson
 UADER:	Mengarelli, José Luis
-UN Patagonia SJB:	Buckle, Carlos  
+UN Patagonia SJB:	Buckle, Carlos
 UN Entre Ríos:	Tugnarelli, Mónica
 UN Nordeste:	Dapozo, Gladys
 UN Rosario:	Casali, Ana
