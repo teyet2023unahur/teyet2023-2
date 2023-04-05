@@ -195,7 +195,7 @@ es: &DEFAULT_ES
         url: /assets/pdf/TEYET-2021-Formato-Demos.docx
         icon: fas fa-calendar-check
       - title: "Fechas límites"
-        desc: "**Presentación de trabajos:** 5/4/2023
+        desc: "**Presentación de trabajos:** 12/4/2023
         &nbsp;
         **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
