@@ -205,6 +205,73 @@ es: &DEFAULT_ES
     text: "Autoridades del Congreso y de RedUNCI"
     section: autoridades
     closebutton: "Cerrar"
+  
+  actividades:
+    title: "Actividades"
+    section: actividades
+    list:
+      - title: "Papers de Tecnología en Educación"
+        image: assets/img/actividades/001-desarrollo-web.png
+        aspects:
+          - title: "Aplicaciones de las TICs en Educación."
+          - title: "Entornos y ambientes de soporte para Educación a Distancia."
+          - title: "Multimedia e Hipermedia aplicadas en Educación."
+          - title: "Simulación, Laboratorios Virtuales y Remotos."
+          - title: "Realidad Virtual y Aumentada."
+          - title: "Impacto de las TICs en el proceso de Enseñanza y Aprendizaje."
+          - title: "Interfaces, usabilidad, accesibilidad, ubicuidad."
+          - title: "Calidad para entornos educativos basados en Tecnología."
+          - title: "Ambientes colaborativos aplicados en Educación."
+          - title: "Experiencias concretas de utilización de TICs en Educación."
+          - title: "Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
+      - title: "Papers de Educación en Tecnología"
+        image: assets/img/actividades/002-codificacin.png
+        aspects:
+          - title: "Enfoques para la Enseñanza de Carreras de Informática / Ciencias de la Computación 
+                  (Fundamentos, Algoritmos y Lenguajes, Ingeniería de Software, Bases de Datos, Redes, 
+                  Sistemas Operativos, Arquitectura de Procesadores)."
+          - title: "Enfoques, herramientas y metodologías para los procesos de enseñanza y aprendizaje 
+                    con incorporación de tecnología."
+          - title: "Enfoques para la formación terciaria / universitaria en temas relacionados con las 
+                    Tecnologías de la Información y las Comunicaciones (TICs)."
+          - title: "La formación experimental en carreras universitarias vinculadas con TICs."
+          - title: "Articulación entre la Escuela Media y la Universidad en el área de TICs."
+          - title: "El análisis de competencias en los estudios curriculares en el área de TICs."
+          - title: "Experiencias curriculares en el área de TICs."
+          - title: "El modelo del alumno y del docente en un contexto mediado por tecnología. 
+                    Aspectos pedagógicos y sicológicos."
+      - title: "Experiencias Docentes/Innovaciones Curriculares"
+        image: assets/img/actividades/003-programacion.png
+        aspects:
+          - title: "Experiencia docente"
+            desc: "En este tipo de trabajo debe presentarse los siguientes componentes:"
+            list: 
+              - title: "**Marco conceptual:** la base de los conocimientos académicos – marco teórico en que se 
+              basa la experiencia/aplicación práctica."
+              - title: "**Descripción de la experiencia:** lo que se diseñó o desarrolló, ¿Cómo fue implementado, 
+              en qué ambiente y con qué contexto de alumnos/curso?"
+              - title: "**Resultados:** lo que se ha aprendido de la aplicación, cuáles son las fortalezas y 
+              debilidades que se han identificado?"
+              - title: "**Implicaciones:** ¿Cuáles son los pasos a seguir o el modo de profundizar el resultado 
+              de la experiencia en el futuro?"
+          - title: "Innovación Curricular."
+            desc: "En este tipo de trabajo debe presentarse los siguientes componentes:"
+            list:
+              - title: "Marco conceptual, el contexto de la carrera informática y la innovación metodológica o 
+                        de contenidos que se ha propuesto y sus objetivos."
+              - title: "Descripción del cambio comparativo con la situación curricular anterior."
+              - title: "Resultados de la implementación de la Innovación Curricular: cualitativos y 
+              cuantitativos."
+              - title: "Análisis de la continuidad de la Innovación Curricular, relación costo/beneficio 
+              académico y implicancias/efectos a futuro sobre la currícula."
+      - title: "DEMOS Educativos"
+        image: assets/img/actividades/004-diseo-web.png
+        aspects:
+          - title: "Los DEMOS educativos serán enviados para su evaluación de acuerdo al formato establecido, 
+                    especificando el ámbito de aplicación, los objetivos, la descripción Y cualquier otra 
+                    consideración que permita su correcto referato (validez, interés, calidad formal).
+                    Los Demos Educativos son desarrollos concretos/productos que de aprobarse, se mostrarán 
+                    a través un video."
 
   timeline:
     title: "Actividades"
@@ -218,16 +285,16 @@ es: &DEFAULT_ES
       - title: "Tecnología en Educación"
         year: "Track 1"
         desc: "Aplicaciones de las TICs.
-Entornos y ambientes de soporte para Educación a Distancia.
-Multimedia e Hipermedia aplicadas en Educación.
-Simulación, Laboratorios Virtuales y Remotos.
-Realidad Virtual y Aumentada.
-Impacto de las TICs en el proceso de Enseñanza y Aprendizaje.
-Interfaces, usabilidad, accesibilidad, ubicuidad.
-Calidad para entornos educativos basados en Tecnología.
-Ambientes colaborativos aplicados en Educación.
-Experiencias concretas de utilización de TICs en Educación.
-Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
+               Entornos y ambientes de soporte para Educación a Distancia.
+               Multimedia e Hipermedia aplicadas en Educación.
+               Simulación, Laboratorios Virtuales y Remotos.
+               Realidad Virtual y Aumentada.
+               Impacto de las TICs en el proceso de Enseñanza y Aprendizaje.
+               Interfaces, usabilidad, accesibilidad, ubicuidad.
+               Calidad para entornos educativos basados en Tecnología.
+               Ambientes colaborativos aplicados en Educación.
+               Experiencias concretas de utilización de TICs en Educación.
+               Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
