@@ -34,7 +34,9 @@ es: &DEFAULT_ES
       section: ediciones
     - title: "Autoridades"
       section: autoridades
-    - title: "Acceso-representantes"
+    - title: "Programa"
+      section: programa
+    - title: "Acceso Organizacion"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
 es-ES:
   <<: *DEFAULT_ES
