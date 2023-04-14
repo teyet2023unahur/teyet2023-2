@@ -179,6 +179,8 @@ es: &DEFAULT_ES
     section: convocatoria
     button: "llamado de trabajos"
     buttonlink: "/presentacion-trabajos.html"
+    date: "19/12/2022"
+    image: assets/img/call-teyet.png
     button2: "Envío de trabajos"
     buttonlink2: "http://163.10.22.92//sac_congreso/enviarArticulo.php?idEvento=156"
     list:
