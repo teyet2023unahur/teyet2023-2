@@ -22,6 +22,8 @@
     }
   }
   .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
     .nav-item {
       .nav-link {
         font-size: 90%;

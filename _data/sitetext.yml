@@ -206,6 +206,23 @@ es: &DEFAULT_ES
     section: autoridades
     closebutton: "Cerrar"
 
+  talleres:
+    - nombre: "Taller1"
+      img: /assets/img/talleres/undraw_analysis_gxmx.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller2"
+      img: /assets/img/talleres/undraw_Experience_design_re_dmqq.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller3"
+      img: /assets/img/talleres/undraw_search_app_oso2.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller4"
+      img: /assets/img/talleres/undraw_Sign_up_n6im.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller5"
+      img: /assets/img/talleres/undraw_Completed_03xt.png
+      descripcion: "Esta es una descripcion de ejemplo"
+
   timeline:
     title: "Actividades"
     text: "Se pueden presentar trabajos para los tracks de Tecnología en Educación, Educación en Tecnología y Experiencias Docentes.
