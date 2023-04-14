@@ -245,7 +245,7 @@ es: &DEFAULT_ES
       - title: "Experiencias Docentes/Innovaciones Curriculares"
         image: assets/img/actividades/003-programacion.png
         aspects:
-          - title: "Experiencia docente"
+          - title: "**Experiencia docente**"
             desc: "En este tipo de trabajo debe presentarse los siguientes componentes:"
             list: 
               - title: "**Marco conceptual:** la base de los conocimientos académicos – marco teórico en que se 
@@ -256,7 +256,7 @@ es: &DEFAULT_ES
               debilidades que se han identificado?"
               - title: "**Implicaciones:** ¿Cuáles son los pasos a seguir o el modo de profundizar el resultado 
               de la experiencia en el futuro?"
-          - title: "Innovación Curricular."
+          - title: "**Innovación Curricular.**"
             desc: "En este tipo de trabajo debe presentarse los siguientes componentes:"
             list:
               - title: "Marco conceptual, el contexto de la carrera informática y la innovación metodológica o 

@@ -12,7 +12,7 @@
             <div id="listaActividad" class="col-md-6">
                 <img src="{{ activ.image }}" alt="Imagen referencial" class="imgActividad">
                 <h4 class="service-heading">{{ activ.title | markdownify }}</h4>
-                <ul>
+                <ul id="itemsListas">
                     {% for item in activ.aspects %}
                     <li>{{ item.title | markdownify }}</li>
                     {% if item.desc %}
