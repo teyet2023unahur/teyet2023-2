@@ -209,7 +209,7 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
   
   actividades:
-    title: "Actividades"
+    
     section: actividades
     list:
       - title: "Papers de Tecnología en Educación"
