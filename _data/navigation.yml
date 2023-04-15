@@ -36,6 +36,10 @@ es: &DEFAULT_ES
       section: autoridades
     - title: "Acceso-representantes"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
+    - title: "Libro de actas 2023"
+      url: http://sedici.unlp.edu.ar/handle/10915/121569 
+    - title: "Talleres"
+      section: talleres     
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
