@@ -209,23 +209,12 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
   
   actividades:
-    
+    title: "Actividades"
     section: actividades
     list:
       - title: "Papers de Tecnología en Educación"
         image: assets/img/actividades/001-desarrollo-web.png
-        aspects:
-          - title: "Aplicaciones de las TICs en Educación."
-          - title: "Entornos y ambientes de soporte para Educación a Distancia."
-          - title: "Multimedia e Hipermedia aplicadas en Educación."
-          - title: "Simulación, Laboratorios Virtuales y Remotos."
-          - title: "Realidad Virtual y Aumentada."
-          - title: "Impacto de las TICs en el proceso de Enseñanza y Aprendizaje."
-          - title: "Interfaces, usabilidad, accesibilidad, ubicuidad."
-          - title: "Calidad para entornos educativos basados en Tecnología."
-          - title: "Ambientes colaborativos aplicados en Educación."
-          - title: "Experiencias concretas de utilización de TICs en Educación."
-          - title: "Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
+        
       - title: "Papers de Educación en Tecnología"
         image: assets/img/actividades/002-codificacin.png
         aspects:
