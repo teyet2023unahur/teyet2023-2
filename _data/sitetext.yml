@@ -202,6 +202,8 @@ es: &DEFAULT_ES
         **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
 
+
+
   programa:
   title: "Programa de Actividades"
   text: "Edición 2023"
@@ -254,21 +256,30 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
     
   talleres:
-    - nombre: "Taller1"
-      img: /assets/img/talleres/undraw_analysis_gxmx.png
+    - nombre: "Pensamiento computacional"
+      img: /assets/img/talleres/taller1.png
+      descripcion: "'Enseñar a programar' con Lucas Spigariol "
+    - nombre: "Videojuegos educativos"
+      img: /assets/img/talleres/taller2.png
+      descripcion: "'Videojuegos con los cuales enseñar' con José Guerra Prado"
+    - nombre: "Robótica Educativa"
+      img: /assets/img/talleres/taller3.png
+      descripcion: "'La influencia de la robótica en la educación'"
+    - nombre: "Tecnologías inmersivas"
+      img: /assets/img/talleres/taller4.png
       descripcion: "Esta es una descripcion de ejemplo"
-    - nombre: "Taller2"
-      img: /assets/img/talleres/undraw_Experience_design_re_dmqq.png
+    - nombre: "IA y educación"
+      img: /assets/img/talleres/taller5.png
       descripcion: "Esta es una descripcion de ejemplo"
-    - nombre: "Taller3"
-      img: /assets/img/talleres/undraw_search_app_oso2.png
-      descripcion: "Esta es una descripcion de ejemplo"
-    - nombre: "Taller4"
-      img: /assets/img/talleres/undraw_Sign_up_n6im.png
-      descripcion: "Esta es una descripcion de ejemplo"
-    - nombre: "Taller5"
-      img: /assets/img/talleres/undraw_Completed_03xt.png
-      descripcion: "Esta es una descripcion de ejemplo"
+
+    - nombre: "Herramientas para gestión educativa"
+      img: /assets/img/talleres/taller6.png
+      description: "Esta es una descripcion de ejemplo"
+
+  form_talleres:
+    buttonLink: /formularios.html
+    button: "Inscribirse"
+
   
   actividades:
     title: "Actividades"
