@@ -30,10 +30,14 @@ es: &DEFAULT_ES
   nav:
     - title: "Convocatoria"
       section: convocatoria
-    - title: "Ediciones"
-      section: ediciones
+    - title: "Actividades"
+      section: actividades
+    - title: "Inscripciones"
+      section: inscripciones
     - title: "Autoridades"
       section: autoridades
+    - title: "Ediciones"
+      section: ediciones
     - title: "Acceso-representantes"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
 es-ES:

@@ -214,7 +214,18 @@ es: &DEFAULT_ES
     list:
       - title: "Papers de Tecnología en Educación"
         image: assets/img/actividades/001-desarrollo-web.png
-        
+        aspects:
+          - title: "Aplicaciones de las TICs en Educación."
+          - title: "Entornos y ambientes de soporte para Educación a Distancia."
+          - title: "Multimedia e Hipermedia aplicadas en Educación."
+          - title: "Simulación, Laboratorios Virtuales y Remotos."
+          - title: "Realidad Virtual y Aumentada."
+          - title: "Impacto de las TICs en el proceso de Enseñanza y Aprendizaje."
+          - title: "Interfaces, usabilidad, accesibilidad, ubicuidad."
+          - title: "Calidad para entornos educativos basados en Tecnología."
+          - title: "Ambientes colaborativos aplicados en Educación."
+          - title: "Experiencias concretas de utilización de TICs en Educación."
+          - title: "Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
       - title: "Papers de Educación en Tecnología"
         image: assets/img/actividades/002-codificacin.png
         aspects:
@@ -263,6 +274,28 @@ es: &DEFAULT_ES
                     consideración que permita su correcto referato (validez, interés, calidad formal).
                     Los Demos Educativos son desarrollos concretos/productos que de aprobarse, se mostrarán 
                     a través un video."
+  
+  inscripciones:
+    title: Inscripciones
+    section: inscripciones
+    header:
+      - title: Participacion
+      - title: Costo
+      - title: Link de inscripción
+      - title: Inscripción al almuerzo
+    content:
+      - title: Asistente autor
+        costo: $
+        button: "Participación"
+        buttonlink: ""
+        button2: "Almuerzo"
+        buttonlink2: ""
+      - title: Asistente general
+        costo: $
+        button: "Participación"
+        buttonlink: ""
+        button2: "Almuerzo"
+        buttonlink2: ""
 
   timeline:
     title: "Actividades"
