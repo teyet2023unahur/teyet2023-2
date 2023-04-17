@@ -1,0 +1,74 @@
+<!-- Actividades -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].actividades.section | default: "actividades" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].actividades.title | default: "actividades" }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for activ in site.data.sitetext[site.locale].actividades.list %}
+            <div id="listaActividad" class="col-md-6">
+                <img src="{{ activ.image }}" alt="Imagen referencial" class="imgActividad">
+                <h4 class="service-heading">{{ activ.title | markdownify }}</h4>
+                <ul id="itemsListas">
+                    {% for item in activ.aspects %}
+                    <li>{{ item.title | markdownify }}</li>
+                    {% if item.desc %}
+                    <p>{{ item.desc | markdownify }}</p>
+                    {% endif %}
+                    {% if item.list %}
+                    <ul>
+                        {% for subitem in item.list %}
+                        <li>{{ subitem.title | markdownify }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Link a RedUnci</h2>
+            </div>
+        </div>
+    </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].actividades.section | default: "actividades" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].actividades.title | default: "actividades" }}</h2>
+            </div>
+        </div>
+        <div class="row rowActividad">
+            {% for activ in site.data.sitetext[site.locale].actividades.list %}
+            <div id="listaActividad" class="col-md-6">
+                <img src="{{ activ.image }}" alt="Imagen referencial" class="imgActividad">
+                <h4 class="service-heading">{{ activ.title | markdownify }}</h4>
+                <ul>
+                    {% for item in activ.aspects %}
+                    <li>{{ item.title | markdownify }}</li>
+                    {% if item.desc %}
+                    <p>{{ item.desc | markdownify }}</p>
+                    {% endif %}
+                    {% if item.list %}
+                    <ul>
+                        {% for subitem in item.list %}
+                        <li>{{ subitem.title | markdownify }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- End Actividades -->
