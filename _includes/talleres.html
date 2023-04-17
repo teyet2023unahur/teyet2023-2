@@ -1,0 +1,22 @@
+<!-- Portfolio Grid -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="talleres">
+<div class="container">
+    <h2 class="section-heading text-uppercase text-center">Talleres</h2>
+    <h3 class="section-subheading text-muted mb-4 text-center">Talleres del congreso</h3>
+    <div class="row">
+        {% for taller in site.data.sitetext[site.locale].talleres %}
+        <div class="col-md-5 mb-5 mx-auto border rounded shadow-sm bg-white">
+            <div class="card-body">
+                <h5 class="card-title">{{ taller.nombre }}</h5>
+                <p class="card-text">{{ taller.descripcion }}</p>
+            </div>
+            <img src="{{ taller.img }}" class="card-img-bottom" alt="...">
+        </div>
+        {% endfor %} 
+    </div>
+</div>
+</section>
+{% endif %}
+
+<div class=""></div>

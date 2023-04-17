@@ -179,8 +179,6 @@ es: &DEFAULT_ES
     section: convocatoria
     button: "llamado de trabajos"
     buttonlink: "/presentacion-trabajos.html"
-    date: "19/12/2022"
-    image: assets/img/call-teyet.png
     button2: "Envío de trabajos"
     buttonlink2: "http://163.10.22.92//sac_congreso/enviarArticulo.php?idEvento=156"
     list:
@@ -202,11 +200,73 @@ es: &DEFAULT_ES
         **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
 
+  programa:
+  title: "Programa de Actividades"
+  text: "Edición 2023"
+  section: convocatoria
+  list:
+    -
+      title: "Track 1(Aula xx)"
+      text: "Jueves 15 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          act: "Acreditacion"
+          place: "Hall Principal"
+          desc: "EDUCACION EN TECNOLOGIA/TECNOLOGIA EN EDUCACION"
+        - time: "12:15"
+          act: "Acto Inagural"
+          desc: "«Caleidoscopios y el eterno retorno: tecnologías y educación en los escenarios contemporáneos.» DRA. CARINA LION (UBA)"
+          link: /assets/pdf/Cv_CARINA_LION.docx
+        - time: "15:00-16:00"
+          act: "Demos (Lugar)"
+      break: "break"
+    -
+      title : "Track 2(Aula xx)"
+      text: "Viernes 16 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          act: "Acreditacion"
+        - time: "9:00"
+          act: "Reunión Plenaria – Representantes de la RedUNCI – (Auditorio) "
+    -
+      title : "Track 3(aula xx)"
+      text: "Viernes 16 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          desc: "EDUCACION EN TECNOLOGIA (ET)/TECNOLOGIA EN EDUCACION (TE)"
+        - time: "13:00"
+          act: "almuerzo de cierre de congreso(SUM)"
+  talleres:
+    - title: "Taller 1: Pensamiento computacional: Enseñar a programar. Lucas Spigariol."
+    - title: "Taller 2: Videojuegos educativos. José Guerra Prado."
+    - title: "Taller 3:Robotica Educativa."
+    - title: "Taller 4:Tecnologías inmersivas."
+    - title: "Taller 5:IA y educación."
+    - title: "Herramientas para gestión educativa."
+
+
   portfolio:
     title: "Autoridades"
     text: "Autoridades del Congreso y de RedUNCI"
     section: autoridades
     closebutton: "Cerrar"
+    
+  talleres:
+    - nombre: "Taller1"
+      img: /assets/img/talleres/undraw_analysis_gxmx.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller2"
+      img: /assets/img/talleres/undraw_Experience_design_re_dmqq.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller3"
+      img: /assets/img/talleres/undraw_search_app_oso2.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller4"
+      img: /assets/img/talleres/undraw_Sign_up_n6im.png
+      descripcion: "Esta es una descripcion de ejemplo"
+    - nombre: "Taller5"
+      img: /assets/img/talleres/undraw_Completed_03xt.png
+      descripcion: "Esta es una descripcion de ejemplo"
   
   actividades:
     title: "Actividades"
@@ -309,16 +369,16 @@ es: &DEFAULT_ES
       - title: "Tecnología en Educación"
         year: "Track 1"
         desc: "Aplicaciones de las TICs.
-               Entornos y ambientes de soporte para Educación a Distancia.
-               Multimedia e Hipermedia aplicadas en Educación.
-               Simulación, Laboratorios Virtuales y Remotos.
-               Realidad Virtual y Aumentada.
-               Impacto de las TICs en el proceso de Enseñanza y Aprendizaje.
-               Interfaces, usabilidad, accesibilidad, ubicuidad.
-               Calidad para entornos educativos basados en Tecnología.
-               Ambientes colaborativos aplicados en Educación.
-               Experiencias concretas de utilización de TICs en Educación.
-               Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
+Entornos y ambientes de soporte para Educación a Distancia.
+Multimedia e Hipermedia aplicadas en Educación.
+Simulación, Laboratorios Virtuales y Remotos.
+Realidad Virtual y Aumentada.
+Impacto de las TICs en el proceso de Enseñanza y Aprendizaje.
+Interfaces, usabilidad, accesibilidad, ubicuidad.
+Calidad para entornos educativos basados en Tecnología.
+Ambientes colaborativos aplicados en Educación.
+Experiencias concretas de utilización de TICs en Educación.
+Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
