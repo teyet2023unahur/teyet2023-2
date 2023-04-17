@@ -256,25 +256,24 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
     
   talleres:
-    - nombre: "Pensamiento computacional"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller1.png
-      descripcion: "'Enseñar a programar' con Lucas Spigariol "
-    - nombre: "Videojuegos educativos"
+      descripcion: "Descripción de ejemplo"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller2.png
-      descripcion: "'Videojuegos con los cuales enseñar' con José Guerra Prado"
-    - nombre: "Robótica Educativa"
+      descripcion: "Descripción de ejemplo"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller3.png
-      descripcion: "'La influencia de la robótica en la educación'"
-    - nombre: "Tecnologías inmersivas"
+      descripcion: "Descripción de ejemplo"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller4.png
-      descripcion: "Esta es una descripcion de ejemplo"
-    - nombre: "IA y educación"
+      descripcion: "Descripción de ejemplo"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller5.png
-      descripcion: "Esta es una descripcion de ejemplo"
-
-    - nombre: "Herramientas para gestión educativa"
+      descripcion: "Descripción de ejemplo"
+    - nombre: "Taller ejemplo"
       img: /assets/img/talleres/taller6.png
-      description: "Esta es una descripcion de ejemplo"
+      descripcion: "Descripción de ejemplo"
 
   form_talleres:
     buttonLink: /formularios.html
@@ -348,6 +347,12 @@ es: &DEFAULT_ES
                     Los Demos Educativos son desarrollos concretos/productos que de aprobarse, se mostrarán 
                     a través un video."
   
+  form-imagenes: 
+    - img: /assets/img/talleres/taller6.png
+    - img: /assets/img/talleres/taller1.png
+    - img: /assets/img/talleres/taller2.png
+    - img: /assets/img/talleres/taller3.png
+
   inscripciones:
     title: Inscripciones
     section: inscripciones
