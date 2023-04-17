@@ -19,3 +19,9 @@
     position: absolute;
     opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+    #section-form {
+        width: 100%;
+    }
+}
