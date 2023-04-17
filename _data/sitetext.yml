@@ -200,6 +200,54 @@ es: &DEFAULT_ES
         **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
 
+  programa:
+  title: "Programa de Actividades"
+  text: "Edición 2023"
+  section: convocatoria
+  list:
+    -
+      title: "Track 1(Aula xx)"
+      text: "Jueves 15 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          act: "Acreditacion"
+          place: "Hall Principal"
+          desc: "EDUCACION EN TECNOLOGIA/TECNOLOGIA EN EDUCACION"
+        - time: "12:15"
+          act: "Acto Inagural"
+          desc: "«Caleidoscopios y el eterno retorno: tecnologías y educación en los escenarios contemporáneos.» DRA. CARINA LION (UBA)"
+          link: /assets/pdf/Cv_CARINA_LION.docx
+        - time: "15:00-16:00"
+          act: "Demos (Lugar)"
+      break: "break"
+    -
+      title : "Track 2(Aula xx)"
+      text: "Viernes 16 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          act: "Acreditacion"
+        - time: "9:00"
+          act: "Reunión Plenaria – Representantes de la RedUNCI – (Auditorio) "
+    -
+      title : "Track 3(aula xx)"
+      text: "Viernes 16 de junio"
+      schedule:
+        - time: "9:00-12:00"
+          desc: "EDUCACION EN TECNOLOGIA (ET)/TECNOLOGIA EN EDUCACION (TE)"
+        - time: "13:00"
+          act: "almuerzo de cierre de congreso(SUM)"
+  talleres:
+    - title: "Taller 1: Pensamiento computacional: Enseñar a programar. Lucas Spigariol."
+    - title: "Taller 2: Videojuegos educativos. José Guerra Prado."
+    - title: "Taller 3:Robotica Educativa."
+    - title: "Taller 4:Tecnologías inmersivas."
+    - title: "Taller 5:IA y educación."
+    - title: "Herramientas para gestión educativa."
+
+
+
+
+
   portfolio:
     title: "Autoridades"
     text: "Autoridades del Congreso y de RedUNCI"
