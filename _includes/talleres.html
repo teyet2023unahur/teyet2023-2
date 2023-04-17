@@ -6,12 +6,13 @@
     <h3 class="section-subheading text-muted mb-4 text-center">Talleres del congreso</h3>
     <div class="row">
         {% for taller in site.data.sitetext[site.locale].talleres %}
-        <div class="col-md-5 mb-5 mx-auto border rounded shadow-sm bg-white">
-            <div class="card-body">
-                <h5 class="card-title">{{ taller.nombre }}</h5>
-                <p class="card-text">{{ taller.descripcion }}</p>
+        <div class="col-md-5 mb-5 mx-auto border rounded shadow-sm bg-white d-flex flex-column align-items-center p-0">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-1">{{ taller.nombre }}</h5>
+                <p class="card-text small">{{ taller.descripcion }}</p>
             </div>
             <img src="{{ taller.img }}" class="card-img-bottom" alt="...">
+            <button type="button" class="btn btn-primary btn-block rounded-0">Block level button</button>
         </div>
         {% endfor %} 
     </div>
