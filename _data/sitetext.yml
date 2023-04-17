@@ -177,6 +177,8 @@ es: &DEFAULT_ES
     title: "Convocatoria"
     text: "Fechas importantes - Edición 2023"
     section: convocatoria
+    date: "19/12/2022"
+    image: assets/img/call-teyet.png
     button: "llamado de trabajos"
     buttonlink: "/presentacion-trabajos.html"
     button2: "Envío de trabajos"
