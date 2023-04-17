@@ -1,6 +1,6 @@
 <!-- Portfolio Grid -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="talleres">
+<section class="page-section bg-light" id="talleres">
 <div class="container">
     <h2 class="section-heading text-uppercase text-center">Talleres</h2>
     <h3 class="section-subheading text-muted mb-4 text-center">Talleres del congreso</h3>
@@ -12,7 +12,7 @@
                 <p class="card-text small">{{ taller.descripcion }}</p>
             </div>
             <img src="{{ taller.img }}" class="card-img-bottom" alt="...">
-            <button type="button" class="btn btn-primary btn-block rounded-0">Block level button</button>
+            <button type="button" class="btn btn-primary btn-block rounded-0">Inscribirse</button>
         </div>
         {% endfor %} 
     </div>
