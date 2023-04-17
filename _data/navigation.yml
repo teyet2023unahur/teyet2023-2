@@ -30,13 +30,18 @@ es: &DEFAULT_ES
   nav:
     - title: "Convocatoria"
       section: convocatoria
-    - title: "Ediciones"
-      section: ediciones
+    - title: "Actividades"
+      section: actividades
+    - title: "Inscripciones"
+      section: inscripciones
     - title: "Autoridades"
       section: autoridades
     - title: "Programa"
       section: programa
     - title: "Acceso Organizacion"
+    - title: "Ediciones"
+      section: ediciones
+    - title: "Acceso-representantes"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
     - title: "Libro de actas 2023"
       url: http://sedici.unlp.edu.ar/handle/10915/121569 
