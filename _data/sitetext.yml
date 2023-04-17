@@ -200,6 +200,8 @@ es: &DEFAULT_ES
         **Notificación autores:** 12/5/2023"
         icon: fas fa-bell
 
+
+
   programa:
   title: "Programa de Actividades"
   text: "Edición 2023"
@@ -273,6 +275,10 @@ es: &DEFAULT_ES
     - nombre: "Herramientas para gestión educativa"
       img: /assets/img/talleres/taller6.png
       description: "Esta es una descripcion de ejemplo"
+
+  form_talleres:
+    buttonLink: /formularios.html
+    button: "Inscribirse"
 
   timeline:
     title: "Actividades"

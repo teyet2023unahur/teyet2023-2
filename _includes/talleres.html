@@ -1,4 +1,4 @@
-<!-- Portfolio Grid -->
+
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section bg-light" id="talleres">
 <div class="container">
@@ -12,12 +12,10 @@
                 <p class="card-text small">{{ taller.descripcion }}</p>
             </div>
             <img src="{{ taller.img }}" class="card-img-bottom" alt="...">
-            <button type="button" class="btn btn-primary btn-block rounded-0">Inscribirse</button>
+            <a class="btn btn-primary btn-block rounded-0 p-2" href="{{ site.data.sitetext[site.locale].form_talleres.buttonLink }}" target="_blank">{{ site.data.sitetext[site.locale].form_talleres.button }}</a>
         </div>
         {% endfor %} 
     </div>
 </div>
 </section>
 {% endif %}
-
-<div class=""></div>
