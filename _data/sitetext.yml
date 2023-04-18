@@ -558,7 +558,9 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
           - name: "Autor 10"
             e-mail: "autor10@email.com"
 
-    
+  auspiciantes:
+    title: "Auspiciantes"
+    section: auspiciantes
 
   footer:
     legal: "Política de Privacidad"
