@@ -500,6 +500,11 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
     subject: "Envío del formulario de contacto"
     submit: "Enviar Mensaje"
 
+  contacto:
+    email: "teyet2023@unahur.edu.ar"
+    direccion: "Tte. Origone 151, Villa Tesei, Hurlingham"
+    telefono: "5491137345226"
+
   trabajos-aceptados:
     section: trabajos-aceptados
     tec-edu:
@@ -553,6 +558,7 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
           - name: "Autor 10"
             e-mail: "autor10@email.com"
 
+    
 
   footer:
     legal: "Política de Privacidad"

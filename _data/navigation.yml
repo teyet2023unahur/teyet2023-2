@@ -44,6 +44,8 @@ es: &DEFAULT_ES
       section: ediciones      
     - title: "Trabajos Aceptados"
       section: trabajos-aceptados
+    - title: "Contacto"
+      section: contacto
     - title: "Acceso Organizacion"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
     - title: "Libro de actas 2023"
