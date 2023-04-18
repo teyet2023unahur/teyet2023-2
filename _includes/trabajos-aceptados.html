@@ -1,0 +1,214 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].trabajos-aceptados.section | default: 'trabajos-aceptados' }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].trabajos-aceptados.title | default: "Trabajos Aceptados" }}</h2>
+        <br><br>
+      </div>
+    </div>
+    <div class="row">
+      {% if site.data.sitetext[site.locale].trabajos-aceptados.tec-edu %}
+      <div class="col-lg-12">
+        <div class="col-lg-12 text-center">
+          <h4>Tecnología en Educación</h4>
+        </div>
+        <div class="row">
+          <div class="col-2 d-flex align-items-center justify-content-center">
+            <div class="position-relative">
+              <div class="badge bg-success rounded-circle d-flex align-items-center justify-content-center" style="text-align: center; height: 70px; width: 70px; margin-bottom: 15px;">
+                <h1 style="margin: 0;">
+                  {% assign count = 0 %}
+                  {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.tec-edu %}
+                  {% assign count = count | plus: 1 %}
+                  {% endfor %}
+                  {{ count }}
+                </h1>
+              </div>
+              <div class="position-absolute text-center" style="top: 100%; transform: translateY(-50%); width: 100%; line-height: 1;">
+                <h5>Total</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Título</th>
+                  <th scope="col">Autores</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.tec-edu %}
+                <tr>
+                  <td scope="row">{{ trabajo.id }}</td>
+                  <td>{{ trabajo.title }}</td>
+                  <td>
+                    {% for autor in trabajo.authors %}
+                    <a href="mailto:{{ autor.e-mail }}">{{ autor.name }}</a>
+                    <br>
+                    {% endfor %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if site.data.sitetext[site.locale].trabajos-aceptados.edu-tec %}
+      <div class="col-lg-12" style="margin-top: 5%;">
+        <div class="col-lg-12 text-center">
+          <h4>Educación en Tecnología</h4>
+        </div>
+        <div class="row">
+          <div class="col-2 d-flex align-items-center justify-content-center">
+            <div class="position-relative">
+              <div class="badge bg-success rounded-circle d-flex align-items-center justify-content-center" style="text-align: center; height: 70px; width: 70px; margin-bottom: 15px;">
+                <h1 style="margin: 0;">
+                  {% assign count = 0 %}
+                  {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.edu-tec %}
+                  {% assign count = count | plus: 1 %}
+                  {% endfor %}
+                  {{ count }}
+                </h1>
+              </div>
+              <div class="position-absolute text-center" style="top: 100%; transform: translateY(-50%); width: 100%; line-height: 1;">
+                <h5>Total</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Título</th>
+                  <th scope="col">Autores</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.edu-tec %}
+                <tr>
+                  <td scope="row">{{ trabajo.id }}</td>
+                  <td>{{ trabajo.title }}</td>
+                  <td>
+                    {% for autor in trabajo.authors %}
+                    <a href="mailto:{{ autor.e-mail }}">{{ autor.name }}</a>
+                    <br>
+                    {% endfor %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if site.data.sitetext[site.locale].trabajos-aceptados.exp-doc %}
+      <div class="col-lg-12" style="margin-top: 5%;">
+        <div class="col-lg-12 text-center">
+          <h4>Experiencias Docentes</h4>
+        </div>
+        <div class="row">
+          <div class="col-2 d-flex align-items-center justify-content-center">
+            <div class="position-relative">
+              <div class="badge bg-success rounded-circle d-flex align-items-center justify-content-center" style="text-align: center; height: 70px; width: 70px; margin-bottom: 15px;">
+                <h1 style="margin: 0;">
+                  {% assign count = 0 %}
+                  {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.exp-doc %}
+                  {% assign count = count | plus: 1 %}
+                  {% endfor %}
+                  {{ count }}
+                </h1>
+              </div>
+              <div class="position-absolute text-center" style="top: 100%; transform: translateY(-50%); width: 100%; line-height: 1;">
+                <h5>Total</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Título</th>
+                  <th scope="col">Autores</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.exp-doc %}
+                <tr>
+                  <td scope="row">{{ trabajo.id }}</td>
+                  <td>{{ trabajo.title }}</td>
+                  <td>
+                    {% for autor in trabajo.authors %}
+                    <a href="mailto:{{ autor.e-mail }}">{{ autor.name }}</a>
+                    <br>
+                    {% endfor %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if site.data.sitetext[site.locale].trabajos-aceptados.demo %}
+      <div class="col-lg-12 " style="margin-top: 5%;">
+        <div class="col-lg-12 text-center">
+          <h4>Demos</h4>
+        </div>
+        <div class="row">
+          <div class="col-2 d-flex align-items-center justify-content-center">
+            <div class="position-relative">
+              <div class="badge bg-success rounded-circle d-flex align-items-center justify-content-center" style="text-align: center; height: 70px; width: 70px; margin-bottom: 15px;">
+                <h1 style="margin: 0;">
+                  {% assign count = 0 %}
+                  {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.demo %}
+                  {% assign count = count | plus: 1 %}
+                  {% endfor %}
+                  {{ count }}
+                </h1>
+              </div>
+              <div class="position-absolute text-center" style="top: 100%; transform: translateY(-50%); width: 100%; line-height: 1;">
+                <h5>Total</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Título</th>
+                  <th scope="col">Autores</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for trabajo in site.data.sitetext[site.locale].trabajos-aceptados.demo %}
+                <tr>
+                  <td scope="row">{{ trabajo.id }}</td>
+                  <td>{{ trabajo.title }}</td>
+                  <td>
+                    {% for autor in trabajo.authors %}
+                    <a href="mailto:{{ autor.e-mail }}">{{ autor.name }}</a>
+                    <br>
+                    {% endfor %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
