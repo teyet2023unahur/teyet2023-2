@@ -11,7 +11,7 @@
                 <h5 class="card-title mb-1">{{ taller.nombre }}</h5>
                 <p class="card-text small">{{ taller.descripcion }}</p>
             </div>
-            <img src="{{ taller.img }}" class="card-img-bottom" alt="...">
+            <img src="{{ taller.img }}" class="card-img-bottom" alt="Imagen representativa del taller">
             <a class="btn btn-primary btn-block rounded-0 p-2" href="{{ site.data.sitetext[site.locale].form_talleres.buttonLink }}" target="_blank">{{ site.data.sitetext[site.locale].form_talleres.button }}</a>
         </div>
         {% endfor %} 
