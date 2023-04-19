@@ -8,15 +8,11 @@
       
       <div class="col-lg-12 text-center">
         <div class="row" style="margin-bottom: 5%;">
-          <div class="col-lg-4 text-center">
+          <div class="col-lg-6 text-center">
             <h4 class="section-heading text-uppercase">Dirección</h4>
             <p>{{ site.data.sitetext[site.locale].contacto.direccion | default: "Dirección" }}</p>
           </div>
-          <div class="col-lg-4 text-center">
-            <h4 class="section-heading text-uppercase">Teléfono</h4>
-            <a href="https://wa.me/{{ site.data.sitetext[site.locale].contacto.telefono }}">WhatsApp (Solo texto)</a>
-          </div>
-          <div class="col-lg-4 text-center">
+          <div class="col-lg-6 text-center">
             <h4 class="section-heading text-uppercase">E-mail</h4>
             <a href="mailto:{{ site.data.sitetext[site.locale].contacto.email }}">{{ site.data.sitetext[site.locale].contacto.email | default: "Correo Electrónico" }}</p>
         </div>
