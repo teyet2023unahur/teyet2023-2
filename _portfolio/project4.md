@@ -10,13 +10,14 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 
 ---
-Fernando Puricelli,
-Marisa Panizzi,
-Cristian Ciarallo,
-Iris Sattolo,
-Daniela Gonzalez,
-Lucas Spigariol,
-Ernesto Gallegos,
-Cecilia Paladino,
-Melina Fernández,
-Verónica Wever
+Fernando Puricelli  
+Marisa Panizzi  
+Cristian Ciarallo  
+Iris Sattolo  
+Daniela Gonzalez  
+Lucas Spigariol  
+Ernesto Gallegos  
+Cecilia Paladino  
+Melina Fernández  
+Verónica Wever  
+ 
