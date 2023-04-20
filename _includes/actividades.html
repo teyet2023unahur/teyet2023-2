@@ -30,12 +30,6 @@
             </div>
             {% endfor %}
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4 class="section-heading text-uppercase">Link a RedUnci</h4>
-                <a href="https://redunci.info.unlp.edu.ar/">https://redunci.info.unlp.edu.ar/</a>
-            </div>
-        </div>
     </div>
 </section>
 {% else %}
@@ -46,12 +40,12 @@
                 <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].actividades.title | default: "actividades" }}</h2>
             </div>
         </div>
-        <div class="row rowActividad">
+        <div class="row">
             {% for activ in site.data.sitetext[site.locale].actividades.list %}
             <div id="listaActividad" class="col-md-6">
                 <img src="{{ activ.image }}" alt="Imagen referencial" class="imgActividad">
                 <h4 class="service-heading">{{ activ.title | markdownify }}</h4>
-                <ul>
+                <ul id="itemsListas">
                     {% for item in activ.aspects %}
                     <li>{{ item.title | markdownify }}</li>
                     {% if item.desc %}
