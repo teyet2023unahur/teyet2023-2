@@ -12,7 +12,8 @@
                 <p class="card-text small">{{ taller.descripcion }}</p>
             </div>
             <img src="{{ taller.img }}" class="card-img-bottom" alt="Imagen representativa del taller">
-            <a class="btn btn-primary btn-block rounded-0 p-2" href="{{ site.data.sitetext[site.locale].form_talleres.buttonLink }}" target="_blank">{{ site.data.sitetext[site.locale].form_talleres.button }}</a>
+            <button class="btn btn-primary btn-block rounded-0 p-2">{{ site.data.sitetext[site.locale].form_talleres.button }}</button>
+            <!-- <a class="btn btn-primary btn-block rounded-0 p-2" href="{{ site.data.sitetext[site.locale].form_talleres.buttonLink }}" target="_blank">{{ site.data.sitetext[site.locale].form_talleres.button }}</a> -->
         </div>
         {% endfor %} 
     </div>
