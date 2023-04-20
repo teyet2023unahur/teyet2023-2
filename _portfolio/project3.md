@@ -9,68 +9,68 @@ caption:
   subtitle: Comité Académico de RedUNCI
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-UBA – Cs. Exactas:	Ceria, Santiago
-UBA – Ingeniería:	Echeverria, Adriana
-UN La Plata:	Pesado, Patricia
-UN Sur:	Rueda, Sonia
-UN San Luis:	Printista, Marcela
-UNCPBA:	Aciti, Claudio
-UN Comahue: 	Grosso, Guillermo
-UN La Matanza:	Eterovic, Jorge
-UN La Pampa:	Alfonso, Hugo
-UNTierra del Fuego:	Koremblit, Gabriel
-UN Salta:	Gil, Gustavo
-UN Patagonia Austral:	Lasso, Marta
-UN SanJuan:	Rodriguez, Nelson
-UADER:	Mengarelli, José Luis
-UN Patagonia SJB:	Buckle, Carlos
-UN Entre Ríos:	Tugnarelli, Mónica
-UN Nordeste:	Dapozo, Gladys
-UN Rosario:	Casali, Ana
-UN Misiones:	Caballero, Sergio
-UNNOBA:	Russo, Claudia
-UN Chilecito:	Carmona, Fernanda
-UN Lanús:	Azcurra, Diego
-UN Santiago del Estero:	Figueroa, Liliana
-Universidad de la Defensa Nacional:	Cipriano, Marcelo
-UN Litoral:	Loyarte, Horacio
-UN RioIV:	Arroyo, Marcelo
-UN Córdoba:	Fridlender, Daniel
-UN Jujuy:	Herrera Cognetta, Analía
-UN Rio Negro:	Vivas, Luis
-UN Villa María:	Prato, Laura
-UN Lujan:	Fernandez, Juan Manuel
-UN Catamarca:	Poliche Maria Valeria
-UN La Rioja:	Molina, Miguel
-UNTres de Febrero:	Oliveros, Alejandro
-UN Tucumán:	Luccioni, Griselda María
-UNAJ:	Morales, Martín
-UN Chaco Austral:	Zachman Patricia
-UN del Oeste:	Foti, Antonio
-UN de Cuyo:	Haderne, Marisa Fabiana
-UNdeMardelPlata:	Ríos, Carlos
-UNHurlingham:	Puricelli, Fernando
-UNSAdA:	Ramón, Hugo
-UNSAM:	Estayno, Marcelo
-UMET:	Quiroga, Flavia
-UMorón:	Chapperon, Gabriela
-UAI:	De Vincenzi, Marcelo
-UBelgrano:	Guerci, Alberto
-Ukennedy:	Panizzi, Marisa
-UAdventistadelPlata:	Bournissen Juan
-UCAECE:	Malbernat, Lucía
-UPalermo:	Alvarez Adriana
-UCARosario:	Grieco, Sebastián
-USalvador:	Zanitti, Marcelo
-UAconcagua:	Giménez, Rosa
-UGastónDachary:	Ruidías, Hector Javier
-UADE:	Feijó, Daniel
-UCEMA:	Guglianone, Ariadna
-UAustral:	Cosentino, Juan Pablo
-UAtlántida Argentina	Rathmann, Liliana
-UCALaPlata:	Bertone, Rodolfo
-ITBA:	Bolo, Mario
-UChampagnat:	Brachetta Mariana
-UMendoza:	Asensio, Mariela
+Ceria, Santiago (UBA – Cs. Exactas)  
+Echeverria, Adriana (UBA – Ingeniería)   
+Pesado, Patricia (UN La Plata)  	  
+Rueda, Sonia (UN Sur)  	  
+Printista, Marcela (UN San Luis)   
+Aciti, Claudio (UNCPBA)  	
+Grosso, Guillermo (UN Comahue)    
+Eterovic, Jorge (UN La Matanza)  	  
+Alfonso, Hugo (UN La Pampa)  	  
+Koremblit, Gabriel (UNTierra del Fuego)  	   
+Gil, Gustavo (UN Salta)  	  
+Lasso, Marta (UN Patagonia Austral)  	 
+Rodriguez, Nelson (UN SanJuan)  	  
+Mengarelli, José Luis (UADER)  	  
+Buckle, Carlos (UN Patagonia SJB)   
+Tugnarelli, Mónica (UN Entre Ríos)  	  
+Dapozo, Gladys (UN Nordeste)  	  
+Casali, Ana (UN Rosario)  	   
+Caballero, Sergio (UN Misiones)  	  
+Russo, Claudia (UNNOBA)  	    
+Carmona, Fernanda (UN Chilecito)  	  
+Azcurra, Diego (UN Lanús)  	  
+Figueroa, Liliana (UN Santiago del Estero)  	  
+Cipriano, Marcelo (Universidad de la Defensa Nacional)  	  
+Loyarte, Horacio (UN Litoral)  	  
+Arroyo, Marcelo (UN RioIV)  	     
+Fridlender, Daniel (UN Córdoba)  	  
+Herrera Cognetta, Analía (UN Jujuy)  	  
+Vivas, Luis (UN Rio Negro)  	
+Prato, Laura (UN Villa María)  	  
+Fernandez, Juan Manuel (UN Lujan)  	  
+Poliche Maria Valeria (UN Catamarca)  	 
+Molina, Miguel (UN La Rioja)  	  
+Oliveros, Alejandro (UNTres de Febrero)  	  
+Luccioni, Griselda María (UN Tucumán)  	  
+Morales, Martín (UNAJ)  	   
+Zachman Patricia (UN Chaco Austral)  	 
+Foti, Antonio (UN del Oeste)  	 
+Haderne, Marisa Fabiana (UN de Cuyo)  	  
+Ríos, Carlos (UNdeMardelPlata)  	  
+Puricelli, Fernando (UNHurlingham)  	  
+Ramón, Hugo (UNSAdA)  	     
+Estayno, Marcelo (UNSAM)  	  
+Quiroga, Flavia (UMET)  	 
+Chapperon, Gabriela (UMorón)  	  
+De Vincenzi, Marcelo (UAI)  	  
+Guerci, Alberto (UBelgrano)    
+Panizzi, Marisa (Ukennedy)  	  
+Bournissen Juan (UAdventistadelPlata)  	  
+Malbernat, Lucía (UCAECE)  	   
+Alvarez Adriana (UPalermo)  	  
+Grieco, Sebastián (UCARosario)  	  
+Zanitti, Marcelo (USalvador)  	  
+Giménez, Rosa (UAconcagua)  	  
+Ruidías, Hector Javier (UGastónDachary)  	  
+Feijó, Daniel (UADE)  	    
+Guglianone, Ariadna (UCEMA)  	  
+Cosentino, Juan Pablo (UAustral)  	  
+Argentina	Rathmann, Liliana (UAtlántida)     
+Bertone, Rodolfo (UCALaPlata)  	   
+Bolo, Mario (ITBA)  	  
+Brachetta Mariana (UChampagnat)  	  
+Asensio, Mariela (UMendoza)  	  
 
 

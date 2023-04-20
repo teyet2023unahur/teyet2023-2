@@ -41,11 +41,17 @@ es: &DEFAULT_ES
     - title: "Talleres"
       section: talleres
     - title: "Ediciones"
-      section: ediciones 
+      section: ediciones      
+    - title: "Trabajos Aceptados"
+      section: trabajos-aceptados
+    - title: "Contacto"
+      section: contacto
+    - title: "Auspiciantes"
+      section: auspiciantes
     - title: "Acceso Organizacion"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
     - title: "Libro de actas 2023"
-      url: http://sedici.unlp.edu.ar/handle/10915/121569     
+      url: ""
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

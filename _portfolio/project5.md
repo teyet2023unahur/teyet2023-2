@@ -10,11 +10,7 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 
 ---
-##### UNLP
-Dra. Cecilia Sanz
-##### UNER
-Mg. Mónica Tugnarelli
-##### UNNOBA
-Dra. Claudia Russo
-##### UNAHUR
-Dra. Marisa Panizzi
+Dra. Cecilia Sanz (UNLP)  
+Mg. Mónica Tugnarelli (UNER)  
+Dra. Claudia Russo (UNNOBA)  
+Dra. Marisa Panizzi (UNAHUR)  

@@ -499,6 +499,75 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
     subject: "Envío del formulario de contacto"
     submit: "Enviar Mensaje"
 
+  contacto:
+    email: "teyet2023@unahur.edu.ar"
+    direccion: "Tte. Origone 151, Villa Tesei, Hurlingham"
+
+  trabajos-aceptados:
+    section: trabajos-aceptados
+    tec-edu:
+      - id: 120
+        title: "Título de ejemplo 1"
+        authors:
+          - name: "Autor 1"
+            e-mail: "email.autor.1@email.com"
+          - name: "Autor 2"
+            e-mail: "email.autor.2@email.com"
+      - id: 33
+        title: "Título de ejemplo 2"
+        authors:
+          - name: "Autor 10"
+            e-mail: "autor10@email.com"
+    edu-tec:
+      - id: 97
+        title: "Título de ejemplo 3"
+        authors:
+          - name: "Autor 3"
+            e-mail: "email3@email.com"
+      - id: 362
+        title: "Título de ejemplo 4"
+        authors:
+          - name: "Autor 4"
+            e-mail: "email4@email.com"
+          - name: "Autor 5"
+            e-mail: "autor5@email.com"
+          - name: "Autor 6"
+            e-mail: "autor6@email.com"
+      - id: 412
+        title: "Título de ejemplo 5"
+        authors:
+          - name: "Autor 7"
+            e-mail: "autor7@email.com"
+    exp-doc:
+      - id: 253
+        title: "Título de ejemplo 6"
+        authors:
+          - name: "Autor 8"
+            e-mail: "author8@email.com"
+    demo:
+      - id: 980
+        title: "Título de ejemplo 7"
+        authors:
+          - name: "Autor 9"
+            e-mail: "autor9@email.com"
+      - id: 100
+        title: "Título de ejemplo 8"
+        authors:
+          - name: "Autor 10"
+            e-mail: "autor10@email.com"
+
+  auspiciantes:
+    title: "Auspiciantes"
+    section: auspiciantes
+    list: 
+    # nombre-archivo deberá ser el nombre exacto del archivo en assets/img/auspios
+    # los archivo deberán estar en formato .png, y sin fondo
+    # el tamaño deberá ser simetrico, es decir, deberá ser cuadrado, mismo ancho y alto
+      - nombre-archivo: "UNAHUR"
+        link: "https://www.unahur.edu.ar/"
+      - nombre-archivo: "redUNCI"
+        link: "https://redunci.info.unlp.edu.ar/"
+
   footer:
     legal: "Política de Privacidad"
     social:
