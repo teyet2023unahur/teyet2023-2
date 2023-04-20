@@ -560,6 +560,14 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
   auspiciantes:
     title: "Auspiciantes"
     section: auspiciantes
+    list: 
+    # nombre-archivo deberá ser el nombre exacto del archivo en assets/img/auspios
+    # los archivo deberán estar en formato .png, y sin fondo
+    # el tamaño deberá ser simetrico, es decir, deberá ser cuadrado, mismo ancho y alto
+      - nombre-archivo: "UNAHUR"
+        link: "https://www.unahur.edu.ar/"
+      - nombre-archivo: "redUNCI"
+        link: "https://redunci.info.unlp.edu.ar/"
 
   footer:
     legal: "Política de Privacidad"
