@@ -1,0 +1,51 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].contacto.section | default: 'contacto' }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center" style="margin-bottom: 5%;">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].contacto.title | default: "Contacto" }}</h2>
+      </div>
+      
+      <div class="col-lg-12 text-center">
+        <div class="row" style="margin-bottom: 5%;">
+          <div class="col-lg-6 text-center">
+            <h4 class="section-heading text-uppercase">Dirección</h4>
+            <p>{{ site.data.sitetext[site.locale].contacto.direccion | default: "Dirección" }}</p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h4 class="section-heading text-uppercase">E-mail</h4>
+            <a href="mailto:{{ site.data.sitetext[site.locale].contacto.email }}">{{ site.data.sitetext[site.locale].contacto.email | default: "Correo Electrónico" }}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-12 text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.882672107412!2d-58.64368199678441!3d-34.618285844255844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d055e548bf%3A0x738f85ea67aeabe5!2sUNaHur.%20Universidad%20Nacional%20de%20Hurlingham!5e0!3m2!1ses-419!2sar!4v1681465363483!5m2!1ses-419!2sar" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- 
+        Para agregar de manera efectiva imagenes debera alterar de manera manual(por el momento)
+        la variable "--num-images" en el archivo assets/css/carrusel-contacto.css
+
+        De igual manera si desea alterar el tamaño de las imagenes debera hacerlo en el archivo
+        antes mencionado en la variable "--img-size"
+      -->
+      <div class="col-lg-12 slider-container">
+        {% for image in site.static_files %}
+        {% if image.path contains 'assets/img/unahur/' %}
+        <div class="slider-img">
+          <img src="{{ image.path }}" alt="">
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% for image in site.static_files %}
+        {% if image.path contains 'assets/img/unahur/' %}
+        <div class="slider-img">
+          <img src="{{ image.path }}" alt="">
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

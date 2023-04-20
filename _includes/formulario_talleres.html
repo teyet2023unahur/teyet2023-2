@@ -1,0 +1,22 @@
+
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section id="section-form">
+    <form class="shadow-lg bg-white" id="form-talleres-section">
+        <div class="form-group input-per">
+            <label for="exampleFormControlName">Nombre:</label>
+            <input type="text" class="form-control" id="exampleFormControlName" placeholder="Introduzca su nombre">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlLastName">Apellido:</label>
+            <input type="text" class="form-control" id="exampleFormControlLastName" placeholder="Introduzca su apellido">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary mx-auto" id="button-form">Inscribirse</button>
+        </div>
+    </form>
+</section>
+{% endif %}
