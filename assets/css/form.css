@@ -24,3 +24,8 @@
     opacity: 0.9;
 }
 
+#button-form {
+    width: 90%;
+    font-size: 90%;
+    margin-top: 5%;
+}
