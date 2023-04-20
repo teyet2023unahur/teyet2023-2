@@ -356,7 +356,7 @@ es: &DEFAULT_ES
     title: Inscripciones
     section: inscripciones
     header:
-      - title: Participacion
+      - title: Participación
       - title: Costo
       - title: Link de inscripción
       - title: Inscripción al almuerzo
