@@ -1,0 +1,46 @@
+<!-- Inscripciones -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].inscripciones.section | default: "inscripciones" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].inscripciones.title | default: "inscripciones" }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            {% for row in site.data.sitetext[site.locale].inscripciones.header %}
+                            <th>{{ row.title | markdownify}}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in site.data.sitetext[site.locale].inscripciones.content %}
+                        <tr>
+                            <td>{{ item.title | markdownify }}</td>
+                            <td>{{ item.costo | markdownify }}</td>
+                            <td>
+                                {%- if item.button -%}
+                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink }}">{{ item.button }}</a>
+	                            {%- endif -%}
+                            </td>
+                            <td>
+                                {%- if item.button2 -%} 
+                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink2 }}">{{ item.button2 }}</a>
+                                {%- endif -%}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% else %}
+
+{% endif %}
+<!-- End Inscripciones -->
