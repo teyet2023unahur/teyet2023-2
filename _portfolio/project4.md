@@ -14,7 +14,7 @@ Fernando Puricelli
 Marisa Panizzi  
 Cristian Ciarallo  
 Iris Sattolo  
-Daniela Gonzalez  
+Daniel Gonzalez  
 Lucas Spigariol  
 Ernesto Gallegos  
 Cecilia Paladino  
