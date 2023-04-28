@@ -1,12 +1,10 @@
 ---
-title: Comité Académico
-subtitle: Comité Académico de RedUNCI
+title: Comité Académico de RedUNCI
 image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: Comité Académico
-  subtitle: Comité Académico de RedUNCI
+  title: Comité Académico de RedUNCI
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
 Ceria, Santiago (UBA – Cs. Exactas)  

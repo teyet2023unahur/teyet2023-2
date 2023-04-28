@@ -1,12 +1,10 @@
 ---
-title: RedUNCI
-subtitle: Autoridades RedUNCI
+title: Autoridades de RedUNCI
 image: assets/img/portfolio/02-full.jpg
 alt: autoridades de la Red
 
 caption:
-  title: RedUNCI
-  subtitle: Autoridades RedUNCI
+  title: Autoridades de RedUNCI
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
 #### COORDINADOR TITULAR  
