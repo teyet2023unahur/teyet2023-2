@@ -24,36 +24,35 @@
                             <td>{{ item.costo | markdownify }}</td>
                             <td>
                                 {%- if item.button -%}
-                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink }}">{{ item.button }}</a>
+                                <button id="example-widget-trigger" 
+                                        class="btn btn-primary btn-l text-uppercase js-scroll-trigger" 
+                                        type="button">
+                                        Inscribirse
+                                </button>
+
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                                <script type="text/javascript">
+                                    var exampleCallback = function () {
+                                        console.log('Order complete!');
+                                    };
+
+                                    window.EBWidgets.createWidget({
+                                        widgetType: 'checkout',
+                                        eventId: '630279863037',
+                                        modal: true,
+                                        modalTriggerElementId: 'example-widget-trigger',
+                                        onOrderComplete: exampleCallback,
+                                        promoCode: "{{ item.entrada }}",
+                                    });
+                                </script>
 	                            {%- endif -%}
-                            </td>
-                            <td>
-                                {%- if item.button2 -%} 
-                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink2 }}">{{ item.button2 }}</a>
-                                {%- endif -%}
                             </td>
                         </tr>
                         {% endfor %}
                     </tbody>
                 </table>
-                <button id="example-widget-trigger" type="button">Buy Tickets</button>
-
-                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-                <script type="text/javascript">
-                    var exampleCallback = function () {
-                        console.log('Order complete!');
-                    };
-
-                    window.EBWidgets.createWidget({
-                        widgetType: 'checkout',
-                        eventId: '630279863037',
-                        modal: true,
-                        modalTriggerElementId: 'example-widget-trigger',
-                        onOrderComplete: exampleCallback,
-                        promoCode: 'AsistenteGeneral',
-                    });
-                </script>
+                
             </div>
         </div>
     </div>

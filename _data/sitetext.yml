@@ -352,20 +352,16 @@ es: &DEFAULT_ES
       - title: Participación
       - title: Costo
       - title: Link de inscripción
-      - title: Inscripción al almuerzo
     content:
       - title: Asistente autor
         costo: $
         button: "Participación"
-        buttonlink: "../prueba-eventbrite.html"
-        button2: "Almuerzo"
-        buttonlink2: ""
+        entrada: "AsistenteAutor"
       - title: Asistente general
         costo: $
         button: "Participación"
-        buttonlink: ""
-        button2: "Almuerzo"
-        buttonlink2: ""
+        entrada: "AsistenteGeneral"
+        
 
   timeline:
     title: "Actividades"
