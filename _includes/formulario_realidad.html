@@ -1,0 +1,48 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor">
+    <div class="row align-items-center g-lg-5 py-5"  >
+        <div class="col-lg-6 text-center text-lg-start" id="section-form">
+            <h1 class="text-center fw-bold mb-3 ">La Realidad Aumentada y tú, compañeros en la Educación</h1>
+            <p>
+                La Realidad Aumentada está más vigente que nunca. En este taller se presentarán algunos desarrollos
+                regionales en esta tecnología inmersiva, destinados al abordaje de temáticas ambientales para todas
+                las edades, tanto dentro como fuera del aula.
+                Además, presentaremos una herramienta con la que los participantes podrán fácilmente construir y 
+                compartir su propia Realidad Aumentada. <br>
+                Docente a cargo: Ing. Ezequiel Lobatto. <br>
+                Es Profesor en Matemática y Astronomía (ISP Dr Joaquín V. González). Ingeniero en Informática 
+                (UNLAM), productor audiovisual, fanático de los Simpson y arquero en los tiempos libres. Ejerce 
+                la docencia en nivel secundario, terciario y universitario. Ha desarrollado aplicaciones en
+                tecnologías inmersivas para educación y artes plásticas, colaborando con diversas editoriales e 
+                instituciones académicas. También produce contenido audiovisual educativo en el canal de Youtube 
+                “Matemática Para Millones”.
+            </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5 " >
+            <form class="p-4 p-md-5 border rounded-3 bg-light shadow-sm p-3 mb-5 bg-white rounded ">
+                <div class="form-floating mb-3">
+                    <label for="floatingInput">Email:</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="form-floating mb-3">
+                    <label for="floatingName">Nombre:</label>
+                    <input type="text" class="form-control" id="floatingName" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-floating mb-3">
+                    <label for="floatingApellido">Apellido:</label>
+                    <input type="text" class="form-control" id="floatingApellido" placeholder="Ingrese su apellido">
+                </div>
+                <div class="form-floating mb-3">
+                    <label for="floatingDNI">DNI:</label>
+                    <input type="text" class="form-control" id="floatingDNI" placeholder="Ingrese su DNI">
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">inscribirse</button>
+                <hr class="my-4">
+                <div class="text-center">
+                <small class="text-muted">Haciendo click estás sujeto a que le enviemos emails</small>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
