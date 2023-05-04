@@ -23,8 +23,7 @@
                             <td>{{ item.title | markdownify }}</td>
                             <td>{{ item.costo | markdownify }}</td>
                             <td>
-                                {%- if item.button -%}
-                                <button id="example-widget-trigger" 
+                                <button id="example-widget-trigger-autor" 
                                         class="btn btn-primary btn-l text-uppercase js-scroll-trigger" 
                                         type="button">
                                         Inscribirse
@@ -41,12 +40,35 @@
                                         widgetType: 'checkout',
                                         eventId: '630279863037',
                                         modal: true,
-                                        modalTriggerElementId: 'example-widget-trigger',
+                                        modalTriggerElementId: 'example-widget-trigger-autor',
                                         onOrderComplete: exampleCallback,
-                                        promoCode: "{{ item.entrada }}",
+                                        promoCode: "AsistenteAutor",
                                     });
                                 </script>
-	                            {%- endif -%}
+                            </td>
+                            <td>
+                                <button id="example-widget-trigger-general" 
+                                        class="btn btn-primary btn-l text-uppercase js-scroll-trigger" 
+                                        type="button">
+                                        Inscribirse
+                                </button>
+
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                                <script type="text/javascript">
+                                    var exampleCallback = function () {
+                                        console.log('Order complete!');
+                                    };
+
+                                    window.EBWidgets.createWidget({
+                                        widgetType: 'checkout',
+                                        eventId: '630279863037',
+                                        modal: true,
+                                        modalTriggerElementId: 'example-widget-trigger-general',
+                                        onOrderComplete: exampleCallback,
+                                        promoCode: "AsistenteGeneral",
+                                    });
+                                </script>
                             </td>
                         </tr>
                         {% endfor %}
