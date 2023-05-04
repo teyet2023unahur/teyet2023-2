@@ -255,29 +255,22 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
     
   talleres:
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller1.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller2.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
+    - nombre: "Aprender a programar en objetos con Wollok Game"
+      img: /assets/img/talleres/taller1.jpg
+      descripcion: 'Wollok es un lenguaje educativo para enseñar programación orientada a objetos, que incluye la herramienta "Game" que permite crear videojuegos y utilizarlos como recurso didáctico.'
+      buttonLink: /formulario_wollok.html
+    - nombre: "Videojuegos y educación, cómo implementar un proyecto lúdico en el ámbito educativo"
+      img: /assets/img/talleres/taller2.jpg
+      descripcion: "Este taller tiene como primer objetivo pensar al videojuego como un recurso más dentro del aula, y luego realizar un recorrido de análisis por varios casos de utilización de videojuegos comerciales en el aula, y cómo han adaptado la experiencia lúdica."
+      buttonLink: /formulario_prado.html
+    - nombre: "La Realidad Aumentada y tú, compañeros en la Educación"
       img: /assets/img/talleres/taller3.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller4.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller5.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller6.png
-      descripcion: "Descripción de ejemplo"
-
-  form_talleres:
-    buttonLink: /formularios.html
-    button: "Inscribirse"
-
+      descripcion: "La Realidad Aumentada está más vigente que nunca. En este taller se presentarán algunos desarrollos regionales en esta tecnología inmersiva, destinados al abordaje de temáticas ambientales para todas las edades, tanto dentro como fuera del aula."
+      buttonLink: /formulario_realidad.html
+    - nombre: "Impresión 3D en Educación y Educación en Impresión 3D"
+      img: /assets/img/talleres/taller4.jpg
+      descripcion: "El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a la inclusión de las tecnologias de fabricación digital aditiva en educación."
+      buttonLink: /formulario_ramirez.html
   
   actividades:
     title: "Actividades"
