@@ -364,7 +364,7 @@ es: &DEFAULT_ES
       - title: Asistente autor
         costo: $
         button: "Participación"
-        buttonlink: ""
+        buttonlink: "../prueba-eventbrite.html"
         button2: "Almuerzo"
         buttonlink2: ""
       - title: Asistente general
