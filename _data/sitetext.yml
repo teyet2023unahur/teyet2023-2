@@ -351,7 +351,8 @@ es: &DEFAULT_ES
     header:
       - title: Participación
       - title: Costo
-      - title: Link de inscripción
+      - title: Inscripción autor
+      - title: Inscripción general
     content:
       - title: Asistente autor
         costo: $

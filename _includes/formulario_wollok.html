@@ -33,7 +33,31 @@
                     <label for="floatingDNI">DNI:</label>
                     <input type="text" class="form-control" id="floatingDNI" placeholder="Ingrese su DNI">
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">inscribirse</button>
+                <!--<button class="w-100 btn btn-lg btn-primary" type="submit">Inscribirse</button>-->
+
+                    <button id="example-widget-trigger-wollok" 
+                            class="w-100 btn btn-lg btn-primary" 
+                            type="button">
+                            Inscribirse
+                    </button>
+
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                    <script type="text/javascript">
+                        var exampleCallback = function () {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '630279863037',
+                            modal: true,
+                            modalTriggerElementId: 'example-widget-trigger-wollok',
+                            onOrderComplete: exampleCallback,
+                            promoCode: "TallerWollok",
+                        });
+                    </script>
+
                 <hr class="my-4">
                 <div class="text-center">
                 <small class="text-muted">Haciendo click estás sujeto a que le enviemos emails</small>
