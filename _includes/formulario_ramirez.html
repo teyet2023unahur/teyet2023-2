@@ -1,7 +1,7 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor">
-    <div class="row align-items-center g-lg-5 py-5"  >
-        <div class="col-lg-6 text-center text-lg-start" id="section-form">
+<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor-cuatro">
+    <div class="row align-items-center g-lg-5 py-5" >
+        <div class="col-md-11 mx-auto col-lg-7 text-center shadow p-5 my-2 bg-white rounded expositor-info">
             <h1 class="text-center fw-bold mb-3 ">Impresión 3D en Educación y Educación en Impresión 3D</h1>
             <p>
                 El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a 
@@ -13,31 +13,12 @@
                 Taller coordinado por Rodrigo Javier Ramírez, diseñador industrial. Docente de la materia 
                 Tecnologias de Fabricación Digital Aditiva 1 y 2, en la carrera de Diseño Industrial de la UNAHUR.
             </p>
-        </div>
-        <div class="col-md-10 mx-auto col-lg-5 " >
-            <form class="p-4 p-md-5 border rounded-3 bg-light shadow-sm p-3 mb-5 bg-white rounded ">
-                <div class="form-floating mb-3">
-                    <label for="floatingInput">Email:</label>
-                    <input type="email" class="form-control" id="floatingInput" required placeholder="nombre@ejemplo.com">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingName">Nombre:</label>
-                    <input type="text" class="form-control" id="floatingName" required placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingApellido">Apellido:</label>
-                    <input type="text" class="form-control" id="floatingApellido" required placeholder="Ingrese su apellido">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingDNI">DNI:</label>
-                    <input type="text" class="form-control" id="floatingDNI" required placeholder="Ingrese su DNI">
-                </div>
+            <form>
                 <button id="tallerImpresion" 
-                        class="w-100 btn btn-lg btn-primary"
+                        class="w-30 btn btn-lg btn-primary" 
                         type="button">
                         Inscribirse
                 </button>
-
                 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
                 <script type="text/javascript">
@@ -54,10 +35,6 @@
                         promoCode: "TallerImpresion3D",
                     });
                 </script>
-                <hr class="my-4">
-                <div class="text-center">
-                <small class="text-muted">Haciendo click estás sujeto a que le enviemos emails</small>
-                </div>
             </form>
         </div>
     </div>

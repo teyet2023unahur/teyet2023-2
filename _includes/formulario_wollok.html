@@ -1,9 +1,9 @@
 
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor">
-    <div class="row align-items-center g-lg-5 py-5"  >
-        <div class="col-lg-6 text-center text-lg-start" id="section-form">
-            <h1 class="text-center fw-bold mb-3 ">Aprender a programar en objetos con Wollok Game</h1>
+<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor-uno">
+    <div class="row align-items-center g-lg-5 py-5" >
+        <div class="col-md-11 mx-auto col-lg-7 text-center shadow p-5 my-2 bg-white rounded expositor-info">
+            <h1 class="text-center fw-bold mb-3">Aprender a programar en objetos con Wollok Game</h1>
             <p>
                 <a href="https://www.wollok.org/" class="h6">Wollok</a> es un lenguaje educativo para enseñar programación orientada a objetos, 
                 que incluye la herramienta "Game" que permite crear videojuegos y utilizarlos como recurso 
@@ -14,54 +14,28 @@
                 desarrollo de Wollok. Adeḿas, es Lic. en Ciencias de la Comunicación y Mg. en 
                 Docencia Universitaria.
             </p>
-        </div>
-        <div class="col-md-10 mx-auto col-lg-5 " >
-            <form class="p-4 p-md-5 border rounded-3 bg-light shadow-sm p-3 mb-5 bg-white rounded ">
-                <div class="form-floating mb-3">
-                    <label for="floatingInput">Email:</label>
-                    <input type="email" class="form-control" id="floatingInput" required placeholder="nombre@ejemplo.com">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingName">Nombre:</label>
-                    <input type="text" class="form-control" id="floatingName" required placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingApellido">Apellido:</label>
-                    <input type="text" class="form-control" id="floatingApellido" required placeholder="Ingrese su apellido">
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="floatingDNI">DNI:</label>
-                    <input type="text" class="form-control" id="floatingDNI" required placeholder="Ingrese su DNI">
-                </div>
-                <!--<button class="w-100 btn btn-lg btn-primary" type="submit">Inscribirse</button>-->
+            <form>
+                <button id="example-widget-trigger-wollok" 
+                        class="w-30 btn btn-lg btn-primary" 
+                        type="button">
+                        Inscribirse
+                </button>
+                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-                    <button id="example-widget-trigger-wollok" 
-                            class="w-100 btn btn-lg btn-primary" 
-                            type="button">
-                            Inscribirse
-                    </button>
+                <script type="text/javascript">
+                    var exampleCallback = function () {
+                        console.log('Order complete!');
+                    };
 
-                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-                    <script type="text/javascript">
-                        var exampleCallback = function () {
-                            console.log('Order complete!');
-                        };
-
-                        window.EBWidgets.createWidget({
-                            widgetType: 'checkout',
-                            eventId: '630279863037',
-                            modal: true,
-                            modalTriggerElementId: 'example-widget-trigger-wollok',
-                            onOrderComplete: exampleCallback,
-                            promoCode: "TallerWollok",
-                        });
-                    </script>
-
-                <hr class="my-4">
-                <div class="text-center">
-                <small class="text-muted">Haciendo click estás sujeto a que le enviemos emails</small>
-                </div>
+                    window.EBWidgets.createWidget({
+                        widgetType: 'checkout',
+                        eventId: '630279863037',
+                        modal: true,
+                        modalTriggerElementId: 'example-widget-trigger-wollok',
+                        onOrderComplete: exampleCallback,
+                        promoCode: "TallerWollok",
+                    });
+                </script>
             </form>
         </div>
     </div>
