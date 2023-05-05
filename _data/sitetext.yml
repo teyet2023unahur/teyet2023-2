@@ -188,7 +188,7 @@ es: &DEFAULT_ES
         icon: fas fa-calendar #find more at https://fontawesome.com/icons
         url: /assets/pdf/Reglas-Formato-de-envio-de-Articulos.pdf
       - title: "Formatos"
-        desc: "Formatos de Artículosy Experiencias docentes."
+        desc: "Formatos de Artículos y Experiencias docentes."
         url: /assets/pdf/TEYET-2021-Formato-Articulos-y-Experiencias-Docentes.docx
         icon: fas fa-calendar-check
       - title: "Demos"
