@@ -7,10 +7,10 @@
       </div>
     </div>
     <div class="row" style="justify-content: center;">
-      <div class="col-lg-12 carrousel-container">
+      <div class="col-lg-12 ausp-container">
         {% for file in site.data.sitetext[site.locale].auspiciantes.list %}
-        <div class="carrousel-imgcont">
-          <div class="carrousel-img">
+        <div class="ausp-imgcont">
+          <div class="ausp-img">
             <img src="assets/img/auspicios/{{ file.nombre-archivo }}.png" width="100%" alt="" onclick="window.open('{{ file.link }}','_blank')">
           </div>
         </div>
@@ -20,12 +20,12 @@
   </div>
 </section>
 <style>
-  .carrousel-container{
+  .ausp-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .carrousel-imgcont{
+  .ausp-imgcont{
     padding: 1% 1% 1% 1%;
   }
   @media screen and (max-width: 375px) { .carrousel-imgcont{ width: 50%; } }
@@ -33,7 +33,7 @@
   @media screen and (min-width: 576px) { .carrousel-imgcont{ width: 33.33%; } }
   @media screen and (min-width: 768px) { .carrousel-imgcont{ width: 25%; } }
   @media screen and (min-width: 992px) { .carrousel-imgcont{ width: 16.66%; } }
-  .carrousel-img img{
+  .ausp-img img{
     cursor: pointer;
     background: #DDD;
     border-radius: 50%;
