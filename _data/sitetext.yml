@@ -351,17 +351,7 @@ es: &DEFAULT_ES
     header:
       - title: Participación
       - title: Costo
-      - title: Inscripción autor
-      - title: Inscripción general
-    content:
-      - title: Asistente autor
-        costo: $
-        button: "Participación"
-        entrada: "AsistenteAutor"
-      - title: Asistente general
-        costo: $
-        button: "Participación"
-        entrada: "AsistenteGeneral"
+      - title: Inscripción
         
 
   timeline:

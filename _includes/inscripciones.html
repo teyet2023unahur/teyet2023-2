@@ -18,12 +18,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for item in site.data.sitetext[site.locale].inscripciones.content %}
                         <tr>
-                            <td>{{ item.title | markdownify }}</td>
-                            <td>{{ item.costo | markdownify }}</td>
+                            <td>Asistente Autor</td>
+                            <td>$1111</td>
                             <td>
-                                <button id="example-widget-trigger-autor" 
+                                <button id="entradaAutor" 
                                         class="btn btn-primary btn-l text-uppercase" 
                                         type="button">
                                         Inscribirse
@@ -40,14 +39,18 @@
                                         widgetType: 'checkout',
                                         eventId: '630279863037',
                                         modal: true,
-                                        modalTriggerElementId: 'example-widget-trigger-autor',
+                                        modalTriggerElementId: 'entradaAutor',
                                         onOrderComplete: exampleCallback,
                                         promoCode: "AsistenteAutor",
                                     });
                                 </script>
                             </td>
+                        </tr>
+                        <tr>
+                            <td>Asistente General</td>
+                            <td>$1111</td>
                             <td>
-                                <button id="example-widget-trigger-general" 
+                                <button id="entradaGeneral" 
                                         class="btn btn-primary btn-l text-uppercase" 
                                         type="button">
                                         Inscribirse
@@ -64,14 +67,13 @@
                                         widgetType: 'checkout',
                                         eventId: '630279863037',
                                         modal: true,
-                                        modalTriggerElementId: 'example-widget-trigger-general',
+                                        modalTriggerElementId: 'entradaGeneral',
                                         onOrderComplete: exampleCallback,
                                         promoCode: "AsistenteGeneral",
                                     });
                                 </script>
                             </td>
                         </tr>
-                        {% endfor %}
                     </tbody>
                 </table>
                 
