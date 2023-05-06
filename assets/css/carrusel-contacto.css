@@ -1,6 +1,10 @@
 
 :root {
-    --num-images: 5; 
+    /* 
+        Este valor deberá ser modificado de manera manual segun la cantidad de imagenes
+        disponibles en la carpeta assets/img/unahur
+    */
+    --num-images: 5;
 }
 @media (max-width: 480px) {
     :root { --img-size: 70; }

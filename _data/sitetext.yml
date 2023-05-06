@@ -482,7 +482,25 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
   contacto:
     email: "teyet2023@unahur.edu.ar"
     direccion: "Tte. Origone 151, Villa Tesei, Hurlingham"
+    # La seccion contactos cuenta con un carrusel de imagenes
+    # Se pueden agregar tantos imagenes como desee en la carpeta assets/img/unahur
+    # Pero se debe tener la precaución de alterar el valor de la variable --num-images
+    # en el archivo assets/css/carrusel-contacto.css
 
+  novedades:
+    title: "Novedades"
+    list: 
+    # Se pueden agregar tantos items como se desee
+    # Pero se debe tener la precaución de alterar el valor del transform 
+    # en el "style" en el archivo _includes/novedades.html
+      - titulo: "Ya está disponible la inscripción a los talleres"
+        mensaje: "Registrate en las secciones de talleres y workshops"
+        link: "/#talleres"
+      - titulo: "Ya podés inscribirte al Congreso"
+        mensaje: "Incripcion Abierta"
+        link: "/#inscripciones"
+
+        
   trabajos-aceptados:
     section: trabajos-aceptados
     tec-edu:
