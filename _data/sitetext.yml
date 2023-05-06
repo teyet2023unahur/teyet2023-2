@@ -271,6 +271,13 @@ es: &DEFAULT_ES
       img: /assets/img/talleres/taller4.jpg
       descripcion: "El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a la inclusión de las tecnologias de fabricación digital aditiva en educación."
       buttonLink: /formulario_ramirez.html
+    - nombre: "Diversión Sensitiva"
+      img: /assets/img/talleres/taller5.jpg
+      descripcion: "En este taller se trabajará sobre experiencias utilizando placas Makey , Microbit,
+                    sensores y elemento simples que están a nuestro alcance como cajas de zapatos,
+                    cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
+                    idea de aplicar lógica y aprender a programar."
+      buttonLink: /formulario_conde.html
   
   actividades:
     title: "Actividades"

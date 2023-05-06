@@ -1,7 +1,8 @@
 #section-expositor-uno,
 #section-expositor-dos,
 #section-expositor-tres,
-#section-expositor-cuatro {
+#section-expositor-cuatro,
+#section-expositor-cinco {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(41, 41, 41);
@@ -23,6 +24,10 @@
 
 #section-expositor-cuatro {
     background-image: url('/assets/img/talleres/Impresora-3d-Torre-Eiffel.jpg');    
+}
+
+#section-expositor-cinco {
+    background-image: url('/assets/img/talleres/aula.jpg');  
 }
 
 .expositor-info {
