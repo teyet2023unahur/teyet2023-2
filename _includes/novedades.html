@@ -80,5 +80,20 @@
             border-radius: 35px;
         }
     </style>
+    <script>
+        document.querySelector(".novedades-container").addEventListener("mouseover", function(){
+            var novedades = document.getElementsByClassName("tarjeta-novedad");
+            for (var i = 0; i < novedades.length; i++) {
+                novedades[i].style.animationPlayState = "paused";
+            }
+        });
+        document.querySelector(".novedades-container").addEventListener("mouseout", function(){
+            var novedades = document.getElementsByClassName("tarjeta-novedad");
+            for (var i = 0; i < novedades.length; i++) {
+                novedades[i].style.animationPlayState = "running";
+            }
+        });
+        
+    </script>
 </section>
 {% endif %}
