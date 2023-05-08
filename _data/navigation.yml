@@ -40,8 +40,6 @@ es: &DEFAULT_ES
       section: programa
     - title: "Talleres"
       section: talleres
-    - title: "Novedades"
-      section: novedades
     - title: "Trabajos Aceptados"
       section: trabajos-aceptados
     - title: "Auspiciantes"
