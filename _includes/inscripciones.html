@@ -18,24 +18,50 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for item in site.data.sitetext[site.locale].inscripciones.content %}
                         <tr>
-                            <td>{{ item.title | markdownify }}</td>
-                            <td>{{ item.costo | markdownify }}</td>
+                            <td>Asistente Autor</td>
+                            <td>$3000</td>
                             <td>
-                                {%- if item.button -%}
-                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink }}">{{ item.button }}</a>
-	                            {%- endif -%}
-                            </td>
-                            <td>
-                                {%- if item.button2 -%} 
-                                <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="{{ item.buttonlink2 }}">{{ item.button2 }}</a>
-                                {%- endif -%}
+                                <a id="entradaAutor" 
+                                        class="btn btn-primary btn-l text-uppercase" 
+                                        type="button"
+                                        href="http://163.10.22.92//sac_congreso/inscripcionCongreso.php?idEvento=156"
+                                        target="_blank">
+                                        Inscribirse
+                                </a>
                             </td>
                         </tr>
-                        {% endfor %}
+                        <tr>
+                            <td>Asistente General</td>
+                            <td>Gratuito</td>
+                            <td>
+                                <button id="entradaGeneral" 
+                                        class="btn btn-primary btn-l text-uppercase" 
+                                        type="button">
+                                        Inscribirse
+                                </button>
+    
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    
+                                <script type="text/javascript">
+                                    var exampleCallback = function () {
+                                        console.log('Order complete!');
+                                    };
+    
+                                    window.EBWidgets.createWidget({
+                                        widgetType: 'checkout',
+                                        eventId: '631679840407',
+                                        modal: true,
+                                        modalTriggerElementId: 'entradaGeneral',
+                                        onOrderComplete: exampleCallback,
+                                        promoCode: "AsistenteGeneral",
+                                    });
+                                </script>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
+                
             </div>
         </div>
     </div>

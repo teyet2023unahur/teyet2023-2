@@ -7,19 +7,43 @@
       </div>
     </div>
     <div class="row" style="justify-content: center;">
-      {% for file in site.data.sitetext[site.locale].auspiciantes.list %}
-      <div class="col">
-        <div class="row" style="padding: 5%;">
-          <div class="col text-center" style="background-color: #dfdfdf; border-radius: 50%; ">
-            <a href="{{ file.link }}"><img src="assets/img/auspicios/{{ file.nombre-archivo }}.png" width="100%" alt=""></a> 
+      <div class="col-lg-12 ausp-container">
+        {% for file in site.data.sitetext[site.locale].auspiciantes.list %}
+        <div class="ausp-imgcont">
+          <div class="ausp-img">
+            <img src="assets/img/auspicios/{{ file.nombre-archivo }}.png" width="100%" alt="" onclick="window.open('{{ file.link }}','_blank')">
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </section>
 <style>
-  
+  .ausp-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ausp-imgcont{
+    padding: 1% 1% 1% 1%;
+    background: #DDD;
+    border-radius: 50%;
+    margin: 1% 1% 1% 1%;
+  }
+  @media screen and (max-width: 375px) { .ausp-imgcont{ width: 48%; } }
+  @media screen and (min-width: 375px) { .ausp-imgcont{ width: 39.66%; } }
+  @media screen and (min-width: 576px) { .ausp-imgcont{ width: 31.33%; } }
+  @media screen and (min-width: 768px) { .ausp-imgcont{ width: 23%; } }
+  @media screen and (min-width: 992px) { .ausp-imgcont{ width: 14.66%; } }
+
+  .ausp-img img{
+    cursor: pointer;
+    padding: 5% 5% 5% 5%;
+  }
+  .ausp-imgcont:hover{
+    background: #FFF;
+    box-shadow: 0 0 10px #000000;
+  }
 </style>
 {% endif %}

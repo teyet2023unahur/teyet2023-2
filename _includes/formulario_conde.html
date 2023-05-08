@@ -1,0 +1,52 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor-cinco">
+    <div class="row align-items-center g-lg-5 py-5" >
+        <div class="col-md-11 mx-auto col-lg-7 text-center shadow p-5 my-2 bg-white rounded expositor-info">
+            <h1 class="text-center fw-bold mb-3">Diversión sensitiva</h1>
+            <p>
+                En este taller se trabajará sobre experiencias utilizando placas Makey , Microbit,
+                sensores y elemento simples que están a nuestro alcance como cajas de zapatos,
+                cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
+                idea de aplicar lógica y aprender a programar.
+                Requiere de mucha creatividad y permite explorar luego distintas opciones para usar
+                en el aula y aprender jugando. <br>
+                Marisa es directora de la Lic en Diseño de Videojuegos y Tecnologías Creativas, de la
+                Universidad Católica de Santa Fe, Facultad de Arquitectura y Diseño sede Santos
+                Mártires, en Posadas, Provincia de Misiones. Docente de la Universidad Nacional de
+                José Clemente Paz, UNPAZ, Ayudante de Trabajos Prácticos en el Instituto Nacional del
+                Profesorado técnico, INSPT. dependiente de la Universidad Tecnológica Nacional.
+                Docente en la Tecnicatura de Desarrollo de Videojuegos en la Universidad Nacional de
+                Scalabrini y Ortiz. Docente de la carrera de Analista de Sistemas del Inst Inmaculada
+                Concepción. Docente de la Universidad de Flores, Docente del Master de Videojuegos
+                y Educación de la Univ de Valencia, España. Miembro del equipo de investigación de
+                Tecnología Educativa de la Universidad de Tres de Febrero. Contenidista y tutora
+                virtual en la Escuela de Maestros, TramaTec, Universidad Tecnológica Nacional de la
+                Reg BS AS.
+            </p>
+            <form>
+                <button id="tallerDS" 
+                        class="w-30 btn btn-lg btn-primary" 
+                        type="button">
+                        Inscribirse
+                </button>
+                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                <script type="text/javascript">
+                    var exampleCallback = function () {
+                        console.log('Order complete!');
+                    };
+
+                    window.EBWidgets.createWidget({
+                        widgetType: 'checkout',
+                        eventId: '631679840407',
+                        modal: true,
+                        modalTriggerElementId: 'tallerDS',
+                        onOrderComplete: exampleCallback,
+                        promoCode: "TallerDS",
+                    });
+                </script>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}

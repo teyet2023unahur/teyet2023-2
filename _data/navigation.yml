@@ -32,8 +32,8 @@ es: &DEFAULT_ES
       section: convocatoria
     - title: "Actividades"
       section: actividades
-#    - title: "Inscripciones"
-#      section: inscripciones
+    - title: "Inscripciones"
+      section: inscripciones
     - title: "Autoridades"
       section: autoridades
     - title: "Programa"

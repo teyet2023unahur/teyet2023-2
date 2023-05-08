@@ -188,7 +188,7 @@ es: &DEFAULT_ES
         icon: fas fa-calendar #find more at https://fontawesome.com/icons
         url: /assets/pdf/Reglas-Formato-de-envio-de-Articulos.pdf
       - title: "Formatos"
-        desc: "Formatos de Artículosy Experiencias docentes."
+        desc: "Formatos de Artículos y Experiencias docentes."
         url: /assets/pdf/TEYET-2021-Formato-Articulos-y-Experiencias-Docentes.docx
         icon: fas fa-calendar-check
       - title: "Demos"
@@ -255,29 +255,29 @@ es: &DEFAULT_ES
     closebutton: "Cerrar"
     
   talleres:
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller1.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller2.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
+    - nombre: "Aprender a programar en objetos con Wollok Game"
+      img: /assets/img/talleres/taller1.jpg
+      descripcion: 'Wollok es un lenguaje educativo para enseñar programación orientada a objetos, que incluye la herramienta "Game" que permite crear videojuegos y utilizarlos como recurso didáctico.'
+      buttonLink: /formulario_wollok.html
+    - nombre: "Videojuegos y educación, cómo implementar un proyecto lúdico en el ámbito educativo"
+      img: /assets/img/talleres/taller2.jpg
+      descripcion: "Este taller tiene como primer objetivo pensar al videojuego como un recurso más dentro del aula, y luego realizar un recorrido de análisis por varios casos de utilización de videojuegos comerciales en el aula, y cómo han adaptado la experiencia lúdica."
+      buttonLink: /formulario_prado.html
+    - nombre: "La Realidad Aumentada y tú, compañeros en la Educación"
       img: /assets/img/talleres/taller3.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller4.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller5.png
-      descripcion: "Descripción de ejemplo"
-    - nombre: "Taller ejemplo"
-      img: /assets/img/talleres/taller6.png
-      descripcion: "Descripción de ejemplo"
-
-  form_talleres:
-    buttonLink: /formularios.html
-    button: "Inscribirse"
-
+      descripcion: "La Realidad Aumentada está más vigente que nunca. En este taller se presentarán algunos desarrollos regionales en esta tecnología inmersiva, destinados al abordaje de temáticas ambientales para todas las edades, tanto dentro como fuera del aula."
+      buttonLink: /formulario_realidad.html
+    - nombre: "Impresión 3D en Educación y Educación en Impresión 3D"
+      img: /assets/img/talleres/taller4.jpg
+      descripcion: "El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a la inclusión de las tecnologias de fabricación digital aditiva en educación."
+      buttonLink: /formulario_ramirez.html
+    - nombre: "Diversión Sensitiva"
+      img: /assets/img/talleres/taller5.jpg
+      descripcion: "En este taller se trabajará sobre experiencias utilizando placas Makey , Microbit,
+                    sensores y elemento simples que están a nuestro alcance como cajas de zapatos,
+                    cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
+                    idea de aplicar lógica y aprender a programar."
+      buttonLink: /formulario_conde.html
   
   actividades:
     title: "Actividades"
@@ -358,21 +358,8 @@ es: &DEFAULT_ES
     header:
       - title: Participación
       - title: Costo
-      - title: Link de inscripción
-      - title: Inscripción al almuerzo
-    content:
-      - title: Asistente autor
-        costo: $
-        button: "Participación"
-        buttonlink: ""
-        button2: "Almuerzo"
-        buttonlink2: ""
-      - title: Asistente general
-        costo: $
-        button: "Participación"
-        buttonlink: ""
-        button2: "Almuerzo"
-        buttonlink2: ""
+      - title: Inscripción
+        
 
   timeline:
     title: "Actividades"
@@ -502,7 +489,25 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
   contacto:
     email: "teyet2023@unahur.edu.ar"
     direccion: "Tte. Origone 151, Villa Tesei, Hurlingham"
+    # La seccion contactos cuenta con un carrusel de imagenes
+    # Se pueden agregar tantos imagenes como desee en la carpeta assets/img/unahur
+    # Pero se debe tener la precaución de alterar el valor de la variable --num-images
+    # en el archivo assets/css/carrusel-contacto.css
 
+  novedades:
+    title: "Novedades"
+    list: 
+    # Se pueden agregar tantos items como se desee
+    # Pero se debe tener la precaución de alterar el valor del transform 
+    # en el "style" en el archivo _includes/novedades.html
+      - titulo: "Ya está disponible la inscripción a los talleres"
+        mensaje: "Registrate en las secciones de talleres y workshops"
+        link: "/#talleres"
+      - titulo: "Ya podés inscribirte al Congreso"
+        mensaje: "Incripcion Abierta"
+        link: "/#inscripciones"
+
+        
   trabajos-aceptados:
     section: trabajos-aceptados
     tec-edu:
@@ -524,10 +529,19 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
     # nombre-archivo deberá ser el nombre exacto del archivo en assets/img/auspios
     # los archivo deberán estar en formato .png, y sin fondo
     # el tamaño deberá ser simetrico, es decir, deberá ser cuadrado, mismo ancho y alto
-      - nombre-archivo: "UNAHUR"
-        link: "https://www.unahur.edu.ar/"
-      - nombre-archivo: "redUNCI"
-        link: "https://redunci.info.unlp.edu.ar/"
+      - nombre-archivo: "agencia"
+        link: "https://www.argentina.gob.ar/ciencia/agencia"
+      - nombre-archivo: "muniHur"
+        link: "https://www.hurlingham.gob.ar/"
+      - nombre-archivo: "fundSadosky"
+        link: "https://www.fundacionsadosky.org.ar/"
+      - nombre-archivo: "logoCICPBA"
+        link: "https://www.cic.gba.gob.ar/"
+      - nombre-archivo: "inetLogo"
+        link: "https://www.inet.edu.ar/"
+      - nombre-archivo: "logoCPCIBA"
+        link: "https://www.cpciba.org.ar/"
+
 
   footer:
     legal: "Política de Privacidad"
