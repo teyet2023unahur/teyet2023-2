@@ -539,8 +539,8 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
         link: "https://www.cic.gba.gob.ar/"
       - nombre-archivo: "inetLogo"
         link: "https://www.inet.edu.ar/"
-      - nombre-archivo: "logoCPCIBA"
-        link: "https://www.cpciba.org.ar/"
+#      - nombre-archivo: "logoCPCIBA"
+#        link: "https://www.cpciba.org.ar/"
 
 
   footer:
