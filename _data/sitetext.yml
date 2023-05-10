@@ -269,7 +269,7 @@ es: &DEFAULT_ES
       buttonLink: /formulario_realidad.html
     - nombre: "Impresión 3D en Educación y Educación en Impresión 3D"
       img: /assets/img/talleres/taller4.jpg
-      descripcion: "El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a la inclusión de las tecnologias de fabricación digital aditiva en educación."
+      descripcion: "El taller se planteará como un espacio de intercambio de modelos, casos y experiencias en torno a la inclusión de las tecnologías de fabricación digital aditiva en educación."
       buttonLink: /formulario_ramirez.html
     - nombre: "Diversión Sensitiva"
       img: /assets/img/talleres/taller5.jpg
