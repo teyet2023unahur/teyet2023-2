@@ -405,16 +405,24 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
     end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
+    section: ediciones
     title: "Ediciones Anteriores"
     text: "Enlaces a las últimas ediciones del TE&ET"
-    body: "2022 - Universidad Nacional de Entre Ríos [https://teyet2022.fcad.uner.edu.ar/](https://teyet2022.fcad.uner.edu.ar/)
-           \
-           &nbsp;
-           2021 - Universidad Nacional de La Plata [https://teyet2021.info.unlp.edu.ar/](https://teyet2021.info.unlp.edu.ar/)
-           \
-           &nbsp;
-           Anteriores: [https://redunci.info.unlp.edu.ar/ediciones-teet/](https://redunci.info.unlp.edu.ar/ediciones-teet/) "
-    section: ediciones
+    enlaces: 
+      - title: "2022 - Universidad Nacional de Entre Ríos"
+        url: "https://teyet2022.fcad.uner.edu.ar/"
+      - title: "2021 - Universidad Nacional de La Plata"
+        url: "https://teyet2021.info.unlp.edu.ar/"
+      - title: "Anteriores"
+        url: "https://redunci.info.unlp.edu.ar/ediciones-teet/"
+#    body: "2022 - Universidad Nacional de Entre Ríos [https://teyet2022.fcad.uner.edu.ar/](https://teyet2022.fcad.uner.edu.ar/)
+#           \
+#           &nbsp;
+#           2021 - Universidad Nacional de La Plata [https://teyet2021.info.unlp.edu.ar/](https://teyet2021.info.unlp.edu.ar/)
+#           \
+#           &nbsp;
+#           Anteriores: [https://redunci.info.unlp.edu.ar/ediciones-teet/](https://redunci.info.unlp.edu.ar/ediciones-teet/) "
+    
 
   clients:
     section: clientes
