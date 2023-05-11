@@ -549,8 +549,8 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
 #        link: "https://www.inet.edu.ar/"
 #      - nombre-archivo: "logoCPCIBA"
 #        link: "https://www.cpciba.org.ar/"
-#      - nombre-archivo: "FUTHURTECHSA"
-#        link: ""
+      - nombre-archivo: "FUTHURTECHSA"
+        link: "/404.html" # Queda pendiente cambiar el link por la pagina de la empresa
 
 
   footer:

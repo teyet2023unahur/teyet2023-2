@@ -28,6 +28,8 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   nav:
+    - title: "Novedades"
+      section: novedades
     - title: "Convocatoria"
       section: convocatoria
     - title: "Actividades"
