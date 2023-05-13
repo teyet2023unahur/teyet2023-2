@@ -1,10 +1,10 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].novedades.section | default: 'novedades' }}">
+<section class="page-section" style="margin-top: -5%;" id="{{ site.data.sitetext[site.locale].novedades.section | default: 'novedades' }}">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center" style="margin-bottom: 5%;">
+            <!--div class="col-lg-12 text-center" style="margin-bottom: 5%;">
                 <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].novedades.title | default: "Novedades" }}</h2>
-            </div>
+            </div-->
             {% assign novedades = site.data.sitetext[site.locale].novedades.list %}
             <div class="col-lg-12 text-center">
                 <div class="novedades-container col-lg-12">
@@ -55,7 +55,7 @@
         .novedades-container {
             display: flex;
             padding: 3%;
-            box-shadow: inset 0 0 50px #DDD;
+            box-shadow: inset 0 0 50px #111;
             overflow: hidden;
             max-height: 30%;
         }
@@ -80,6 +80,7 @@
             padding: 5% 5% 5% 5%;
             background-color: #DDD;
             border-radius: 35px;
+            box-shadow: 0 0 10px #111;
         }
     </style>
     <script>
