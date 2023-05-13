@@ -1,51 +1,25 @@
 ---
-title: Comité Científico
-image: assets/img/portfolio/01-full.jpg
-alt: Comité científico
+title: Autoridades de UNAHUR
+image: assets/img/portfolio/03-full.jpg
+alt: 
 
 caption:
-  title: Comité Científico
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  title: Autoridades de UNAHUR
+  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+
 ---
-Abásolo, María José (UNLP - Argentina)  
-Artola, Verónica (UNLP, Argentina)  
-Baldassarri, Sandra (Univ. Zaragoza – España)  
-Barberá, Elena (UOC – España)  
-Cañas, Alberto (Univ. West Florida – USA)  
-Cataldi, Zulma (UTN – Argentina)    
-Cerezo, Eva (Univ. de Zaragoza - España)  
-Collazos, Cesar (Univ. De Cauca - Colombia)  
-Coma-Roselló, Teresa (Univ. Zaragoza – España)  
-De Gi usti, Armando (UNLP – Argentina)  
-Diaz, Javier (UNLP – Argentina)  
-Docampo, Domingo (Universidad de Vigo – España)  
-Feierherd, Guillermo (UNPSJB – Argentina)  
-Fernández Pampillón, Ana (Univ. Complutense Madrid – España)  
-Ferreyra, Ariel (UNRC-Argentina)  
-García Aretio, Lorenzo (UNED – España)  
-Genero, Marcela (Univ. De Castilla La Mancha - España)  
-Gonzalez, Alejandro (UNLP – Argentina)  
-Herrera, Susana (UNSE - Argentina)  
-Jordan, Ramiro (Univ. New Mexico – USA)  
-Luque, Mónica (RITLA – USA)  
-Malberti, Alejandra (UNSJ - Argentina)  
-Motz, Regina (Univ. República – Uruguay)  
-Navarro Martin, Antonio (Univ. Complutense Madrid – España)  
-Olivas Varela, José Angel (Universidad de Castilla La Mancha - España)  
-Paldao, Carlos (USA)  
-Pesado, Patricia (UNLP – Argentina)  
-Rexachs del Rosario, Dolores Isabel (Univ. Autonoma de Barcelona – España)  
-Rodriguez de Sousa, Josemar (Universidade do Estado da Bahia – Brasil)  
-Roig Vila, Rosabel (Univ. Alicante – España)  
-Rueda, Sonia (UNS – Argentina)  
-Russo, Claudia (UNNOBA – Argentina)  
-Sanchez, Jaime (Univ. Nacional Chile – Chile)  
-Sangrá, Albert (UOC – España)  
-Santacruz, Liliana (Univ. Rey Juan Carlos – España)  
-Sanz, Cecilia (UNLP – Argentina)  
-Tarouco, Liane (UFRGS – Brasil)  
-Tartaglia, Angelo (Politécnico Torino – Italia)  
-Willging, Pedro (UNLaPampa – Argentina)  
-Zangara, Alejandra (UNLP - Argentina)  
-
-
+**Rector**: Lic. Jaime Perczyk  
+**Vicerrector**: Mg. Walter Wallach  
+  
+**Secretaria Académica**: Lic. Lizzie Wanger  
+**Secretario General**: Lic. Nicolás Vilela  
+**Secretario de Investigación**: Dr. Juan Pedrosa  
+**Secretaria de Servicios a la Comunidad**: Lic. Marcela Vidondo  
+**Secretaria de Bienestar Estudiantil**: Lic. Violeta Kesselman  
+**Secretario de Planeamiento y Evaluación Institucional**: Dr. Jorge Aliaga  
+**Secretario Administrativo Financiero y Técnico**: Cdor. Javier Carcaterra  
+  
+**Directora del Instituto de Educación**: Mg. Cristina Magno  
+**Director del Instituto de Biotecnología**: Lic. Sebastián Calvo  
+**Director del Instituto de Salud Comunitaria**: Dr. Ezequiel Consiglio  
+**Director del Instituto de Tecnología e Ingenierí**a: Ing. Gustavo Medrano  
