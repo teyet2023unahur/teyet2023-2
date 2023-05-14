@@ -8,7 +8,7 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 
 ---
-**Rector**: Lic. Jaime Perczyk  
+**Rector**: Lic. Jaime Perczyk (en uso de licencia)
 **Vicerrector**: Mg. Walter Wallach  
   
 **Secretaria Académica**: Lic. Lizzie Wanger  
