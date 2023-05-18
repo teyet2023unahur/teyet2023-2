@@ -519,16 +519,396 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
   trabajos-aceptados:
     section: trabajos-aceptados
     tec-edu:
+      - id: 14587
+        title: "Estrategias de Microlearning en un Curso de Ingreso a carreras de Ingeniería."
+        authors:
+          - name: "Roxana Scorzo (UNLaM)"
+            e-mail: "rscorzo@unlam.edu.ar"
+          - name: "Gabriela Ocampo (UNLaM)"
+            e-mail: "gocampo@unlam.edu.ar"
+          - name: "Gisele De Pietri (UNLaM)"
+            e-mail: "gdepietri@unlam.edu.ar"
+          - name: "Nadia Suelves (UNLaM)"
+            e-mail: "nsuelves@unlam.edu.ar"
+      - id: 14596
+        title: "Tecno pedagogía en el Proceso Formativo."
+        authors:
+          - name: "Jose Luis Filippi (UNLPAM)"
+            e-mail: "filippij@ing.unlpam.edu.ar"
+          - name: "Carlos Ballesteros (UNLPAM)"
+            e-mail: "charlyballes@ing.unlpam.edu.ar"
+          - name: "Pablo Etcheverry (UNLPAM)"
+            e-mail: "petcheverry@ing.unlpam.edu.ar"
+      - id: 14597
+        title: "Hacia una comprensión dinámica y contextual de la autorregulación del aprendizaje: Propuesta metodológica para su evaluación en foros académicos."
+        authors:
+          - name: "María Paula Dieser (UNLPAM)"
+            e-mail: "pauladieser@exactas.unlpam.edu.ar"
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+          - name: "Maria Alejandra Zangara (UNLP)"
+            e-mail: "alejandra.zangara@gmail.com"
+      - id: 14605
+        title: "Impacto de la aplicación de metodologías activas de enseñanza en la Licenciatura en Sistemas de Información de la Universidad Nacional de Luján."
+        authors:
+          - name: "Juan Manuel Fernandez (UNLu)"
+            e-mail: "jmfernandez@unlu.edu.ar"
+          - name: "Mario G. Oloriz (UNLu)"
+            e-mail: "moloriz@unlu.edu.ar"
+          - name: "María L. Lucchini (UNLu)"
+            e-mail: "llucchini@unlu.edu.ar"
+          - name: "Adriana E. Nanini (UNLu)"
+            e-mail: "ananini@unlu.edu.ar"
+          - name: "Matías Rodríguez (UNLu)"
+            e-mail: "mrodriguez@unlu.edu.ar"
+      - id: 14607
+        title: "Modelos para la predicción del abandono en la Universidad Nacional de Hurlingham."
+        authors:
+          - name: "Martín Pustilnik (UNAHUR)"
+            e-mail: "martin.pustilnik@unahur.edu.ar"
+          - name: "Gianluca Ndukanma (UNAHUR)"
+            e-mail: "ndukanmagianluca14@gmail.com"
+      - id: 14609
+        title: "Estilos de aprendizaje en estudiantes de Ingeniería informática. Permanencia o cambio Estilos de aprendizaje en estudiantes de Ingeniería informática. Permanencia o cambio."
+        authors:
+          - name: "Carlos Guillermo Lazzurri (UNMdP)"
+            e-mail: "guillermol@fi.mdp.edu.ar"
+          - name: "Ivonne Gellon (UNMdP)"
+            e-mail: "ivonne@fi.mdp.edu.ar"
+          - name: "Delia Esther Benchoff (UNMdP)"
+            e-mail: "ebenchoff@fi.mdp.edu.ar"
+          - name: "Erik Borgnia Giannini (UNMdP)"
+            e-mail: "eborgnia@alumnos.fi.mdp.edu.ar"
+      - id: 14612
+        title: "Emociones académicas. Cuáles son y cómo se identifican."
+        authors:
+          - name: "Gustavo Javier Astudillo (UNLPAM)"
+            e-mail: "astudillo@exactas.unlpam.edu.ar"
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+          - name: "Sandra Baldassarri (UZ)"
+            e-mail: "baldassarri.sandra@gmail.com"
+          - name: "Aurora Moreno (UNLPAM)"
+            e-mail: "moreaurora01@gmail.com"
+      - id: 14613
+        title: "Tecnología de asistencia (TICs) para minimizar las brechas en el conocimiento en alumnos con Dislexia."
+        authors:
+          - name: "Ariel Quiroga Marin (UNdeC)"
+            e-mail: "cquiroga@undec.edu.ar"
+          - name: "Enrique Martinez (UNdeC)"
+            e-mail: "emartinez@undec.edu.ar"
+      - id: 14617
+        title: "Modelo de red sostenible para educación mediada por TIC en zonas aisladas de la Provincia de Salta."
+        authors:
+          - name: "Sergio Rocabado (UNSa)"
+            e-mail: "srocabado@di.unsa.edu.ar"
+          - name: "David Gonzalo Romero (UNSa)"
+            e-mail: "gromero@di.unsa.edu.ar"
+          - name: "Carlos Cadena (UNSa)"
+            e-mail: "cadenacinenco@gmail.com"
+          - name: "Liliana Carina Barth Muller (UNSa)"
+            e-mail: "mullerana@hum.unsa.edu.ar"
+      - id: 14620
+        title: "El futuro de la Educación Universitaria con Chat GPT."
+        authors:
+          - name: "Matias Agustin Perez (UNdeC)"
+            e-mail: "mperez@undec.edu.ar"
+          - name: "Samira Robador Papich (UNdeC)"
+            e-mail: "samirarobador@gmail.com"
+      - id: 14621
+        title: "Proceso de diseño y desarrollo del framework MarCOA para la creación de Objetos de Aprendizaje."
+        authors:
+          - name: "Lucía Violini (UNLP)"
+            e-mail: "lviolini@lidi.info.unlp.edu.ar"
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+          - name: "Patricia Pesado (UNLP)"
+            e-mail: "ppesado@lidi.info.unlp.edu.ar"
+      - id: 14622
+        title: "Realidad Aumentada Aplicada al Estudio de Instrumental Quirúrgico para Cirugía General Veterinaria."
+        authors:
+          - name: "Agustín Leonardo Cao (UNLP)"
+            e-mail: "alcaolpg@alu.ing.unlp.edu.ar"
+          - name: "Sebastián Dapoto (UNLP)"
+            e-mail: "sdapoto@lidi.info.unlp.edu.ar"
+          - name: "Pablo Thomas (UNLP)"
+            e-mail: "pthomas@lidi.info.unlp.edu.ar"
+          - name: "Ana María Blasco (UNLP)"
+            e-mail: "ablasco@fcv.unlp.edu.ar"
+          - name: "Hugo Baschar (UNLP)"
+            e-mail: "hbaschar@fcv.unlp.edu.ar"
+          - name: "Jonatan Terminiello (UNLP)"
+            e-mail: "jterminiello@fcv.unlp.edu.ar"
+      - id: 14624
+        title: "Avances en la herramienta de autor AuthorAR para la creación de actividades educativas con geolocalización."
+        authors:
+          - name: "Natalí Salazar Mesía (UNLP)"
+            e-mail: "nsalazar@lidi.info.unlp.edu.ar"
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+      - id: 14628
+        title: "Revisión Sistemática de Literatura de estudios sobre modalidades híbridas educativas en Disciplinas Proyectuales."
+        authors:
+          - name: "Verónica Cecilia Díaz Reinoso (UNSJ)"
+            e-mail: "vdiaz@unsj.edu.ar"
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+      - id: 14642
+        title: "Análisis sobre la categorización de tesis de grado de las carreras informáticas de la UM, mediante minería de textos."
+        authors:
+          - name: "Gabriel Mariuz (UM)"
+            e-mail: "gmariuz91@gmail.com"
+          - name: "Marisa Panizzi (UM)"
+            e-mail: "marisadanielapanizzi@gmail.com"
+          - name: "Iris Sattolo (UM)"
+            e-mail: "iris.sattolo@gmail.com"
+      - id: 14644
+        title: "Análisis de la demanda cognitiva de problemas de probabilidad propuestos en E-status."
+        authors:
+          - name: "Yilton Riascos (UniCAUCA)"
+            e-mail: "yirifo@unicauca.edu.co"
+          - name: "Silvia N Perez (UNO)"
+            e-mail: "sperez@uno.edu.ar"
+          - name: "Mónica Giuliano (UNO)"
+            e-mail: "mgiuliano@uno.edu.ar"
+          - name: "M. Victoria Afonso (UNO)"
+            e-mail: "mafonso@uno.edu.ar"
+          - name: "Diego Edwards Molina (UNO)"
+            e-mail: "sperez@uno.edu.ar"
+          - name: "Jose A. Gonzalez (UPC)"
+            e-mail: "jose.a.gonzalez@upc.edu"
+      - id: 14645
+        title: "Herramientas para la gestión de poblaciones estudiantiles: propuestas personalizadas de inscripción, análisis comparativo de trayectorias."
+        authors:
+          - name: "Gerardo Gonzalez Tulian (UNAHUR)"
+            e-mail: "gerardo.gonzaleztulian@gmail.com"
+          - name: "Juan Martín Bonacci (UNAHUR)"
+            e-mail: "juan.bonacci@unahur.edu.ar"
+      - id: 14647
+        title: "Observatorio de Tecnología e Innovación Educativa."
+        authors:
+          - name: "Claudia Russo (UNNOBA)"
+            e-mail: "crusso@unnoba.edu.ar"
+          - name: "Tamara Ahmad (UNNOBA)"
+            e-mail: "tamara.ahmad@itt.unnoba.edu.ar"
+          - name: "Natalia Sinde (UNNOBA)"
+            e-mail: "natalia.sinde@itt.unnoba.edu.ar"
+      - id: 14648
+        title: "Video y dramatización en pandemia: Virtualización del Festival de cine de Lengua Inglesa I."
+        authors:
+          - name: "Blas Bigatti (UNAHUR)"
+            e-mail: "blasbigatti@gmail.com"
+          - name: "Florencia Gervasoni (UNAHUR)"
+            e-mail: "florencia.gervasoni@unahur.edu.ar"
+          - name: "Ariel Ogián (UNAHUR)"
+            e-mail: "arielalejandro.ogian@unahur.edu.ar"
+          - name: "Andrea Scagnetti (UNAHUR)"
+            e-mail: "andrea.scagnetti@unahur.edu.ar"
+          - name: "Andrea Trenti (UNAHUR)"
+            e-mail: "andreapaola.trenti@unahur.edu.ar"
+          - name: "Nicolás Vincenti (UNAHUR)"
+            e-mail: "gustavonicolas.vincenti@unahur.edu.ar"
     edu-tec:
+      - id: 14598
+        title: "La matriz de competencias como herramienta para orientar la escritura de resultados de aprendizaje."
+        authors:
+          - name: "Carlos Neil (UAI)"
+            e-mail: "carlos.neil@uai.edu.ar"
+          - name: "Nicolás Battaglia (UAI)"
+            e-mail: "nicolas.battaglia@uai.edu.ar"
+          - name: "Marcelo De Vicenzi (UAI)"
+            e-mail: "medevincenzi@uai.edu.ar"
+      - id: 14619
+        title: "La función tutorial en la virtualidad como un aspecto relevante en la capacitación docente."
+        authors:
+          - name: "Elsa Reyes (UTN-FRBA)"
+            e-mail: "elsareyes@frba.utn.edu.ar"
+          - name: "Gustavo A. José (UNT)"
+            e-mail: "gajose@herrera.unt.edu.ar"
+          - name: "Nicolás Auvieux (UNT)"
+            e-mail: "nauvieux@herrera.unt.edu.ar"
+          - name: "Lía Fabiana Torres Auad (UNT)"
+            e-mail: "ltorresauad@herrera.unt.edu.ar"
     exp-doc:
+      - id: 14579
+        title: "Una propuesta de resignificación de la evaluación en las prácticas profesionales."
+        authors:
+          - name: "Sonia Marcela Szilak (UNaM)"
+            e-mail: "soniaszilak@gmail.com"
+          - name: "Gabriela Gómez (UNaM)"
+            e-mail: "gabriela.gomez@fceqyn.unam.edu.ar"
+          - name: "Ana María Benitez (UNaM)"
+            e-mail: "anamab7@gmail.com"
+      - id: 14584
+        title: "Tareas y capacidades matemáticas con el uso de GeoGebra en la clase de Análisis Matemático."
+        authors:
+          - name: "Betina Williner (UNLaM)"
+            e-mail: "bwilliner@unlam.edu.ar"
+          - name: "Adriana Favieri (UNLaM)"
+            e-mail: "afavieri@unlam.edu.ar"
+      - id: 14599
+        title: "Narrativas Digitales: la radio en el aula."
+        authors:
+          - name: "Diana Dure (UTN-FRRe)"
+            e-mail: "dianadure2005@yahoo.com.ar"
+          - name: "Claudia Garcia (UTN-FRRe)"
+            e-mail: "claurg369@gmail.com"
+          - name: "Graciela Muchutti (UTN-FRRe)"
+            e-mail: "gracielamuchutti@yahoo.com.ar"
+          - name: "Leonardo Barabas (UTN-FRRe)"
+            e-mail: "leonardogbarabas@gmail.com"
+      - id: 14602
+        title: "Proyecto de análisis de datos de servicios de telecomunicaciones evaluado con rúbricas analíticas."
+        authors:
+          - name: "Marcelo Dante Caiafa (UNLaM)"
+            e-mail: "macaiafa@unlam.edu.ar"
+          - name: "Ariel Rodrigo Aurelio (UNLaM)"
+            e-mail: "aaurelio@unlam.edu.ar"
+          - name: "Alejandro Bevilacqua (UNLaM)"
+            e-mail: "abevilacqua@unlam.edu.ar"
+      - id: 14604
+        title: "Uso de Simulador para el análisis de filtros de Compatibilidad Electromagnética."
+        authors:
+          - name: "Ignacio J Zaradnik (UNLaM)"
+            e-mail: "izaradnik@unlam.edu.ar"
+          - name: "Javier Slawiski (UNLaM)"
+            e-mail: "jslawiski@unlam.edu.ar"
+          - name: "Hugo Tantignone (UNLaM)"
+            e-mail: "htantignone@unlam.edu.ar"
+          - name: "Mónica Canziani (UNLaM)"
+            e-mail: "monibe52@yahoo.com.ar"
+      - id: 14611
+        title: "ChatGPT: como no caer en el prohibicionismo."
+        authors:
+          - name: "Mercedes Escardó (UNAHUR)"
+            e-mail: "mercedes.escardo@unahur.edu.ar"
+      - id: 14616
+        title: "Transmedia Storytelling and CLIL approach: the perfect allies in the English Language classroom"
+        authors:
+          - name: "Graciela Heit (UNAHUR)"
+            e-mail: "graciela.heit@unahur.edu.ar"
+          - name: "María Alejandra Sánchez (UNAHUR)"
+            e-mail: "alejandra.sanchez@unahur.edu.ar"
+      - id: 14623
+        title: "Experiencia de migración de la plataforma de Educación Virtual en la Facultad de Ciencias Agrarias UNR: análisis preliminar del proceso."
+        authors:
+          - name: "Evelina Marinelli (UNR)"
+            e-mail: "emarinel@fcagr.unr.edu.ar"
+          - name: "Luciana Burzacca (UNR)"
+            e-mail: "lburzac@unr.edu.ar"
+          - name: "Araceli Boldorini (UNR)"
+            e-mail: "araceli.boldorini@gmail.com"
+          - name: "Silvina García (UNR)"
+            e-mail: "silgar@fcagr.unr.edu.ar"
+      - id: 14625
+        title: "Una propuesta de evaluación formativa en asignaturas del área de Bases de Datos de la UNNOBA."
+        authors:
+          - name: "Mariana Adó (UNNOBA)"
+            e-mail: "mariana.ado@itt.unnoba.edu.ar"
+          - name: "Mercedes Guash (UNNOBA)"
+            e-mail: "mercedes.guash@itt.unnoba.edu.ar"
+          - name: "Maria Rosana Piergallini (UNNOBA)"
+            e-mail: "rosana.piergallini@itt.unnoba.edu.ar"
+          - name: "Marina Rodriguez (UNNOBA)"
+            e-mail: "marina.rodriguez@itt.unnoba.edu.ar"
+      - id: 14631
+        title: "Estrategia de Evaluación Formativa Virtual en un Curso de Programación Numérica."
+        authors:
+          - name: "Ángel R. Barberis (UNSa)"
+            e-mail: "barberis@cidia.unsa.edu.ar"
+          - name: "Lorena E. Del Moral Sachetti (UNSa)"
+            e-mail: "lorena_dms@cidia.unsa.edu.ar"
+          - name: "Jorge A. Silvera (UNSa)"
+            e-mail: "jsilvera@unsa.edu.ar"
+      - id: 14632
+        title: "Propuesta Didáctica de Lecto/Comprensión de Textos Científicos en un Ambiente Híbrido. Una experiencia Docente en Programación Numérica."
+        authors:
+          - name: "Lorena E. Del Moral Sachetti (UNSa)"
+            e-mail: "lorena.dms.7@gmail.com"
+          - name: "Ángel R. Barberis (UNSa)"
+            e-mail: "barberis@cidia.unsa.edu.ar"
+          - name: "Jorge A. Silvera (UNSa)"
+            e-mail: "jsilvera@unsa.edu.ar"
+      - id: 14643
+        title: "Prácticas didácticas innovadoras para el desarrollo de videos educativos como aporte al abordaje de contenidos curriculares en la Educación Superior."
+        authors:
+          - name: "Sandra E. Angeli (UNRC)"
+            e-mail: "sangeli@ac.unrc.edu.ar"
+          - name: "Mauricio Nazareno Boarini (UNRC)"
+            e-mail: "mboarini@ac.unrc.edu.ar"
+          - name: "Lorena A. Montbrun (UNRC)"
+            e-mail: "lmontbrun@ac.unrc.edu.ar"
+      - id: 14651
+        title: "Trabajo final de la asignatura estadística con uso de Infostat como herramienta didáctica."
+        authors:
+          - name: "María Laura Vranic (UNAHUR)"
+            e-mail: "maria.vranic@unahur.edu.ar"
+          - name: "Mónica Guliano (UNAHUR)"
+            e-mail: "monica.guliano@unahur.edu.ar"
+      - id: 14652
+        title: "Desafíos y posibilidades de la educación híbrida en la clase de Introducción al Análisis Matemático."
+        authors:
+          - name: "Martín Cornes (UNAHUR)"
+            e-mail: "martin.cornes@unahur.edu.ar"
+          - name: "Ángel Tonna (UNAHUR)"
+            e-mail: "angel.tonna@unahur.edu.ar"
+          - name: "Silvia Raquel Vargas (UNAHUR)"
+            e-mail: "silvia.vargas@unahur.edu.ar"
     demo:
-    #Ejemplo de formato:
-    #demo:
-    #  - id: 100
-    #    title: "Título del trabajo"
-    #    authors:
-    #     - name: "Nombre autor"
-    #       e-mail: "autor@email.com"
+      - id: 14600
+        title: "UAIRubric una herramienta colaborativa para el diseño de rúbricas analíticas."
+        authors:
+          - name: "Facundo Romeu (UAI)"
+            e-mail: "facundonicolas.romeu@alumnos.uai.edu.ar"
+          - name: "Juan Manuel Stecklain (UAI)"
+            e-mail: "juanmanuel.stecklain@alumnos.uai.edu.ar"
+          - name: "Nicolás Battaglia (UAI)"
+            e-mail: "nicolas.battaglia@uai.edu.ar"
+          - name: "Carlos Neil (UAI)"
+            e-mail: "carlos.neil@uai.edu.ar"
+      - id: 14608
+        title: "ModA Virtual Recorrido virtual inmersivo por el Módulo Apóstoles FCEQyN UNaM."
+        authors:
+          - name: "Gastón Alberto Caminiti (UNaM)"
+            e-mail: "gaston.caminiti@fceqyn.unam.edu.ar"
+          - name: "Daniela Alejandra Martinez (UNaM)"
+            e-mail: "dalej.martinez@fceqyn.unam.edu.ar"
+          - name: "Fabio Alberto Ledesma (UNaM)"
+            e-mail: "ledesmafabio@fceqyn.unam.edu.ar"
+      - id: 14614
+        title: "Realidad Virtual para acercar el patrimonio argentino. El caso de HuVi Tango y Casa Curutchet."
+        authors:
+          - name: "Cecilia Sanz (UNLP)"
+            e-mail: "csanz@lidi.info.unlp.edu.ar"
+          - name: "Ana Clara Rucci (UNLP)"
+            e-mail: "anaclara.rucci@econo.unlp.edu.ar"
+          - name: "Mariano Mazza (UNLP)"
+            e-mail: "mazza.mariano@hotmail.com"
+          - name: "renzella Luciana (UNLP)"
+            e-mail: "luciana.renzella@econo.unlp.edu.ar"
+          - name: "Agustina Romero (UNLP)"
+            e-mail: "" # Turismo
+          - name: "Nela María Sol Ravea (UNLP)"
+            e-mail: "nela.ravea@econo.unlp.edu.ar"
+          - name: "Verónica Artola (UNLP)"
+            e-mail: "vartola@lidi.info.unlp.edu.ar"
+      - id: 14649
+        title: "Estimación del tiempo en el diseño de actividades educativas digitales."
+        authors:
+          - name: "Matías Dimase (UNNOBA)"
+            e-mail: "mdimase@comunidad.unnoba.edu.ar"
+          - name: "Victor Boscoscuro (UNNOBA)"
+            e-mail: "vhboscoscuro@comunidad.unnoba.edu.ar"
+          - name: "Victor Boscoscuro (UNNOBA)"
+            e-mail: "vhboscoscuro@comunidad.unnoba.edu.ar"
+          - name: "Carlos Di Cicco (UNNOBA)"
+            e-mail: "carlos.dicicco@itt.unnoba.edu.ar"
+          - name: "Tamara Ahmad (UNNOBA)"
+            e-mail: "tamara.ahmad@itt.unnoba.edu.ar"
+          - name: "Claudia Russo (UNNOBA)"
+            e-mail: "claudia.russo@itt.unnoba.edu.ar"
+          - name: "Natalia Sinde (UNNOBA)"
+            e-mail: "natalia.sinde@itt.unnoba.edu.ar"
 
   auspiciantes:
     title: "Auspiciantes"
