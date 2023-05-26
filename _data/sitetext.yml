@@ -680,6 +680,8 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
       - id: 14645
         title: "Herramientas para la gestión de poblaciones estudiantiles: propuestas personalizadas de inscripción, análisis comparativo de trayectorias."
         authors:
+          - name: "Carlos Lombardi (UNAHUR)"
+            e-mail: ""
           - name: "Gerardo Gonzalez Tulian (UNAHUR)"
             e-mail: "gerardo.gonzaleztulian@gmail.com"
           - name: "Juan Martín Bonacci (UNAHUR)"
@@ -693,21 +695,6 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
             e-mail: "tamara.ahmad@itt.unnoba.edu.ar"
           - name: "Natalia Sinde (UNNOBA)"
             e-mail: "natalia.sinde@itt.unnoba.edu.ar"
-      - id: 14648
-        title: "Video y dramatización en pandemia: Virtualización del Festival de cine de Lengua Inglesa I."
-        authors:
-          - name: "Blas Bigatti (UNAHUR)"
-            e-mail: "blasbigatti@gmail.com"
-          - name: "Florencia Gervasoni (UNAHUR)"
-            e-mail: "florencia.gervasoni@unahur.edu.ar"
-          - name: "Ariel Ogián (UNAHUR)"
-            e-mail: "arielalejandro.ogian@unahur.edu.ar"
-          - name: "Andrea Scagnetti (UNAHUR)"
-            e-mail: "andrea.scagnetti@unahur.edu.ar"
-          - name: "Andrea Trenti (UNAHUR)"
-            e-mail: "andreapaola.trenti@unahur.edu.ar"
-          - name: "Nicolás Vincenti (UNAHUR)"
-            e-mail: "gustavonicolas.vincenti@unahur.edu.ar"
     edu-tec:
       - id: 14598
         title: "La matriz de competencias como herramienta para orientar la escritura de resultados de aprendizaje."
@@ -838,6 +825,21 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
             e-mail: "mboarini@ac.unrc.edu.ar"
           - name: "Lorena A. Montbrun (UNRC)"
             e-mail: "lmontbrun@ac.unrc.edu.ar"
+      - id: 14648
+        title: "Video y dramatización en pandemia: Virtualización del Festival de cine de Lengua Inglesa I."
+        authors:
+          - name: "Blas Bigatti (UNAHUR)"
+            e-mail: "blasbigatti@gmail.com"
+          - name: "Florencia Gervasoni (UNAHUR)"
+            e-mail: "florencia.gervasoni@unahur.edu.ar"
+          - name: "Ariel Ogián (UNAHUR)"
+            e-mail: "arielalejandro.ogian@unahur.edu.ar"
+          - name: "Andrea Scagnetti (UNAHUR)"
+            e-mail: "andrea.scagnetti@unahur.edu.ar"
+          - name: "Andrea Trenti (UNAHUR)"
+            e-mail: "andreapaola.trenti@unahur.edu.ar"
+          - name: "Nicolás Vincenti (UNAHUR)"
+            e-mail: "gustavonicolas.vincenti@unahur.edu.ar"
       - id: 14651
         title: "Trabajo final de la asignatura estadística con uso de Infostat como herramienta didáctica."
         authors:
