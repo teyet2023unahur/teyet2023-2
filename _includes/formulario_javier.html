@@ -1,0 +1,39 @@
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<div class="container col-xl-12 col-xxl-8 px-4 py-1" id="section-expositor-seis">
+    <div class="row align-items-center g-lg-5 py-5" >
+        <div class="col-md-11 mx-auto col-lg-7 text-center shadow p-5 my-2 bg-white rounded expositor-info">
+            <h1 class=" fw-bold mb-3 ">Inteligencia Artificial para docentes. Datos, sesgos, criterios y personas</h1>
+            <p>
+                Los objetivos del taller son: <br>
+                    -Contextualizar el uso de la IA en experiencias cotidianas y reconocer el impacto de los criterios de las personas en el funcionamiento de los algoritmos de aprendizaje automático al realizar la predicción. <br>
+                    -Experimentar el entrenamiento de un modelo de aprendizaje automático. <br>
+                    -Asociar las predicciones de un modelo con los datos con los que se lo entrenó. <br>
+                    -Identificar problemas derivados de los sesgos en el entrenamiento de algoritmos de aprendizaje automático, especialmente asociados a injusticias, discriminaciones y prejuicios.
+            </p>
+            <form>
+                <button id="tallerIA" 
+                        class="w-30 btn btn-lg btn-primary" 
+                        type="button">
+                        Inscribirse
+                </button>
+                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                <script type="text/javascript">
+                    var exampleCallback = function () {
+                        console.log('Order complete!');
+                    };
+
+                    window.EBWidgets.createWidget({
+                        widgetType: 'checkout',
+                        eventId: '631679840407',
+                        modal: true,
+                        modalTriggerElementId: 'tallerIA',
+                        onOrderComplete: exampleCallback,
+                        promoCode: "TallerIA",
+                    });
+                </script>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}

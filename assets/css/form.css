@@ -2,7 +2,8 @@
 #section-expositor-dos,
 #section-expositor-tres,
 #section-expositor-cuatro,
-#section-expositor-cinco {
+#section-expositor-cinco,
+#section-expositor-seis {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(41, 41, 41);
@@ -28,6 +29,10 @@
 
 #section-expositor-cinco {
     background-image: url('/assets/img/talleres/aula.jpg');  
+}
+
+#section-expositor-seis {
+    background-image: url('/assets/img/talleres/ia.jpg');
 }
 
 .expositor-info {

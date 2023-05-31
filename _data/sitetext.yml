@@ -278,6 +278,12 @@ es: &DEFAULT_ES
                     cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
                     idea de aplicar lógica y aprender a programar."
       buttonLink: /formulario_conde.html
+    - nombre: "Inteligencia Artificial para docentes. Datos, sesgos, criterios y personas"
+      img: /assets/img/talleres/taller6.jpg
+      descripcion: "En este taller se abordará el uso de la IA en experiencias cotidianas, el impacto de los criterios personales 
+                    en los algoritmos de aprendizaje automático, el entrenamiento de modelos y la identificación de problemas de 
+                    sesgos y discriminación en el entrenamiento de algoritmos."
+      buttonLink: /formulario_javier.html     
   
   actividades:
     title: "Actividades"
