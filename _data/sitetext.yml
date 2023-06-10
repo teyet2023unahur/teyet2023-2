@@ -277,7 +277,7 @@ es: &DEFAULT_ES
                     sensores y elemento simples que están a nuestro alcance como cajas de zapatos,
                     cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
                     idea de aplicar lógica y aprender a programar."
-      #buttonLink: /formulario_conde.html
+      buttonLink: /formulario_conde.html
     - nombre: "Inteligencia Artificial para docentes. Datos, sesgos, criterios y personas"
       img: /assets/img/talleres/taller6.jpg
       descripcion: "En este taller se abordará el uso de la IA en experiencias cotidianas, el impacto de los criterios personales 
