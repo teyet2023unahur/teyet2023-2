@@ -277,7 +277,7 @@ es: &DEFAULT_ES
                     sensores y elemento simples que están a nuestro alcance como cajas de zapatos,
                     cartón, tapitas de gaseosa, papel aluminio. Construiremos un objeto interactivo con la
                     idea de aplicar lógica y aprender a programar."
-      buttonLink: /formulario_conde.html
+      #buttonLink: /formulario_conde.html
     - nombre: "Inteligencia Artificial para docentes. Datos, sesgos, criterios y personas"
       img: /assets/img/talleres/taller6.jpg
       descripcion: "En este taller se abordará el uso de la IA en experiencias cotidianas, el impacto de los criterios personales 
@@ -514,13 +514,15 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
     # Se pueden agregar tantos items como se desee
     # Pero se debe tener la precaución de alterar el valor del transform 
     # en el "style" en el archivo _includes/novedades.html
-      - titulo: "Ya está disponible la inscripción a los talleres"
-        mensaje: "Registrate en las secciones de talleres y workshops"
-        link: "/#talleres"
       - titulo: "Ya podés inscribirte al Congreso"
         mensaje: "Incripción Abierta"
         link: "/#inscripciones"
-
+      - titulo: "Ya está disponible la inscripción a los talleres"
+        mensaje: "Registrate en las secciones de talleres y workshops"
+        link: "/#talleres"
+      - titulo: "¡Talleres 5 y 6 completos!"
+        mensaje: "Lamentamos informar que los cupos para los talleres 5 y 6 ya se han completado.<br>Los invitamos a inscribirse a los talleres aún disponibles."
+        link: "/#talleres"
         
   trabajos-aceptados:
     section: trabajos-aceptados
