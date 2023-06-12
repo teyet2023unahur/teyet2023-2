@@ -517,12 +517,15 @@ Objetos de aprendizaje, análisis y desarrollo de materiales educativos"
       - titulo: "Ya podés inscribirte al Congreso"
         mensaje: "Incripción Abierta"
         link: "/#inscripciones"
-      - titulo: "Ya está disponible la inscripción a los talleres"
-        mensaje: "Registrate en la seccion de talleres y aprovecha las distintas opciones."
-        link: "/#talleres"
-      - titulo: "¡Talleres 5 y 6 completos!"
-        mensaje: "Lamentamos informar que los cupos para los talleres 5 y 6 ya se han completado.<br>Los invitamos a inscribirse a los talleres aún disponibles."
-        link: "/#talleres"
+      #- titulo: "Ya está disponible la inscripción a los talleres"
+      #  mensaje: "Registrate en las secciones de talleres y workshops"
+      #  link: "/#talleres"
+      #- titulo: "¡Talleres 5 y 6 completos!"
+      #  mensaje: "Lamentamos informar que los cupos para los talleres 5 y 6 ya se han completado.<br>Los invitamos a inscribirse a los talleres aún disponibles."
+      #  link: "/#talleres"
+      - titulo: "¡Atención! Incripciones Cerradas"
+        mensaje: "Lamentamos informar que las inscripciones a los talleres se encuentran cerradas."
+
         
   trabajos-aceptados:
     section: trabajos-aceptados
