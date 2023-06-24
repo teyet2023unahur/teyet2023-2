@@ -30,8 +30,8 @@ es: &DEFAULT_ES
   nav:
     - title: "Novedades"
       section: novedades
-    - title: "Convocatoria"
-      section: convocatoria
+#    - title: "Convocatoria"
+#      section: convocatoria
     - title: "Actividades"
       section: actividades
 #    - title: "Inscripciones"
