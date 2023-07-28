@@ -53,7 +53,7 @@ es: &DEFAULT_ES
     - title: "Acceso Organizacion"
       url: http://163.10.22.92//sac_congreso/index.php?idEvento=156
     - title: "Libro de actas 2023"
-      url: ""
+      url: "/assets/pdf/TEYET-2023-UNAHUR-Actas.pdf"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
